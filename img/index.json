@@ -1,0 +1,318 @@
+[
+ {
+  "naam": "zolder-gang",
+  "bron": "20201020_103242-rotated.jpg",
+  "w": 1487,
+  "h": 1983,
+  "maten": [
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "zolder-deur",
+  "bron": "20201020_103258-rotated.jpg",
+  "w": 1436,
+  "h": 1915,
+  "maten": [
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "zolder-deur-breed",
+  "bron": "20201020_103258_landscape.jpg",
+  "w": 1430,
+  "h": 1078,
+  "maten": [
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "zolder-kamer",
+  "bron": "20201020_103305-rotated.jpg",
+  "w": 1423,
+  "h": 1897,
+  "maten": [
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "zolder-overloop",
+  "bron": "20201020_103316-rotated.jpg",
+  "w": 1449,
+  "h": 1932,
+  "maten": [
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "zolder-balustrade",
+  "bron": "20201020_103321-rotated.jpg",
+  "w": 1395,
+  "h": 1860,
+  "maten": [
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "zolder-dakvenster",
+  "bron": "20201020_103338-rotated.jpg",
+  "w": 1442,
+  "h": 1922,
+  "maten": [
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "zolder-berging",
+  "bron": "20201020_103351-rotated.jpg",
+  "w": 1458,
+  "h": 1944,
+  "maten": [
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "douche-overzicht",
+  "bron": "20210529_144429-rotated.jpg",
+  "w": 1650,
+  "h": 2200,
+  "maten": [
+   1600,
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "douche-nissen",
+  "bron": "20210529_144457-rotated.jpg",
+  "w": 1668,
+  "h": 2224,
+  "maten": [
+   1600,
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "douche-radiator",
+  "bron": "20210529_144538-rotated.jpg",
+  "w": 1653,
+  "h": 2203,
+  "maten": [
+   1600,
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "uitbouw-voorkant",
+  "bron": "20210609_080608-rotated.jpg",
+  "w": 1426,
+  "h": 1901,
+  "maten": [
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "uitbouw-folie",
+  "bron": "20210609_080614-rotated.jpg",
+  "w": 1400,
+  "h": 1867,
+  "maten": [
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "uitbouw-zijkant",
+  "bron": "20210609_080645-rotated.jpg",
+  "w": 1142,
+  "h": 1522,
+  "maten": [
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "uitbouw-avond",
+  "bron": "20210609_155610-rotated.jpg",
+  "w": 1275,
+  "h": 1700,
+  "maten": [
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "uitbouw-stelling",
+  "bron": "20210611_095252-rotated.jpg",
+  "w": 1324,
+  "h": 1765,
+  "maten": [
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "uitbouw-raam",
+  "bron": "20210612_112135-rotated.jpg",
+  "w": 1346,
+  "h": 1794,
+  "maten": [
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "uitbouw-tuinzijde",
+  "bron": "20210612_155958-rotated.jpg",
+  "w": 1251,
+  "h": 1668,
+  "maten": [
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "uitbouw-oprit",
+  "bron": "20210612_160013-rotated.jpg",
+  "w": 1404,
+  "h": 1872,
+  "maten": [
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "uitbouw-schuifraam",
+  "bron": "20210612_160032-rotated.jpg",
+  "w": 1289,
+  "h": 1719,
+  "maten": [
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "uitbouw-hoek",
+  "bron": "20210612_160056-rotated.jpg",
+  "w": 1146,
+  "h": 1528,
+  "maten": [
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "keuken-werkblad",
+  "bron": "20210619_092839-rotated.jpg",
+  "w": 1385,
+  "h": 1846,
+  "maten": [
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "keuken-overzicht",
+  "bron": "20210619_130324-rotated.jpg",
+  "w": 1314,
+  "h": 1752,
+  "maten": [
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "bad-ruw",
+  "bron": "20210727_124442-rotated.jpg",
+  "w": 1493,
+  "h": 1990,
+  "maten": [
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "bad-af",
+  "bron": "20210730_154952-rotated.jpg",
+  "w": 1472,
+  "h": 1963,
+  "maten": [
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "bad-zicht",
+  "bron": "20210730_154959-rotated.jpg",
+  "w": 1459,
+  "h": 1946,
+  "maten": [
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "douche-breed",
+  "bron": "g-1.jpg",
+  "w": 1437,
+  "h": 808,
+  "maten": [
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "achterbouw-terras",
+  "bron": "g-2.jpg",
+  "w": 1600,
+  "h": 1200,
+  "maten": [
+   1600,
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "zolderkamer-airco",
+  "bron": "g-3.jpg",
+  "w": 1600,
+  "h": 1200,
+  "maten": [
+   1600,
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "ruwbouw-stelling",
+  "bron": "g-4.jpg",
+  "w": 1600,
+  "h": 2844,
+  "maten": [
+   1600,
+   900,
+   500
+  ]
+ },
+ {
+  "naam": "zolderkamer-vloer",
+  "bron": "g-5.jpg",
+  "w": 1468,
+  "h": 3264,
+  "maten": [
+   900,
+   500
+  ]
+ }
+]

@@ -1,0 +1,517 @@
+{
+  "_werkblad": {
+    "lezer_en_pijn": "Huiseigenaar in Herent, Leuven of een gemeente daarrond met een badkamer, zolder, keuken of te kleine leefruimte die aan renovatie toe is. Hij vreest dat hij drie aannemers moet regelen voor één ruimte en dat de afwerking blijft liggen zodra de ruwbouw klaar is.",
+    "belofte": "Hij krijgt de ruimte terug zoals ze bedoeld was, afgewerkt en klaar voor gebruik, van dezelfde ploeg die ze heeft uitgebroken.",
+    "proces": "Iedereen toont een afgewerkte foto en zegt dat het kan. Wij bekijken eerst de ruimte, zeggen wat er technisch mogelijk is en voeren het dan zelf uit.",
+    "bewijs": "31 eigen werkfoto's uit zeven projecten, twee sleepbare voor-en-na's van dezelfde ruimte, 5,0 op Google met acht beoordelingen en drie reviews op naam, KBO-gegevens.",
+    "vorm_per_sectie": "hero uitkomst-eerst, feiten cijfers, over feit-eerst, diensten drie groepen, werkwijze proces, voor en na bewijs, waarom redenen uit de reviews, realisaties beeld, reviews stemmen, contact vraag"
+  },
+  "_aannames": [
+    "Bedrijfsgegevens komen uit de KBO (1018.081.910), hun Google-profiel, hun Facebook-pagina en hun eigen website expert-renovaties.be.",
+    "Alle foto's zijn hun eigen werkfoto's: 26 uit de mediabibliotheek van hun website (2020 en 2021) en 5 van hun Google-profiel. Er is geen stockfoto gebruikt.",
+    "De diensten volgen uit de NACE-codes in de KBO en uit wat op hun eigen foto's te zien is.",
+    "Het e-mailadres k-swistak@wp.pl staat publiek op hun Facebook-pagina.",
+    "Geen enkel cijfer is verzonnen: 5,0 en acht beoordelingen komen van Google, het ondernemingsnummer uit de KBO.",
+    "De twee voor-en-na-paren zijn op een parenblad gecontroleerd: het is dezelfde ruimte vanuit vrijwel dezelfde hoek.",
+    "De site spreekt in de wij-vorm, zoals het bedrijf zelf. Alleen in de reviews staat de derde persoon, want dat zijn de woorden van de klant.",
+    "De strook met materiaalmerken uit de Rai Bouw-demo staat hier niet: met welke merken dit bedrijf werkt is nergens terug te vinden, en verzonnen logo's zijn verzonnen feiten."
+  ],
+  "meta": {
+    "titel": "Expert Renovaties | Badkamers, zolders en uitbouwen in Herent en Leuven",
+    "omschrijving": "Expert Renovaties verbouwt badkamers, zolders, keukens en uitbouwen in Herent, Leuven en de gemeenten daarrond. Wij meten op, bouwen op en werken af.",
+    "naam": "Expert Renovaties"
+  },
+  "top": {
+    "adres": "Kerkstraat 36, 3020 Herent",
+    "mail": "k-swistak@wp.pl",
+    "volg": "Volg ons"
+  },
+  "merk": {
+    "woord1": "EXPERT",
+    "woord2": "RENOVATIES",
+    "onder": "Badkamers, zolders en uitbouwen"
+  },
+  "nav": [
+    {
+      "label": "Waarom",
+      "naar": "#waarom"
+    },
+    {
+      "label": "Diensten",
+      "naar": "#diensten"
+    },
+    {
+      "label": "Werkwijze",
+      "naar": "#werkwijze"
+    },
+    {
+      "label": "Realisaties",
+      "naar": "#realisaties"
+    },
+    {
+      "label": "Contact",
+      "naar": "#contact"
+    }
+  ],
+  "bel": {
+    "label": "Bel ons",
+    "nummer": "+32 491 63 05 66",
+    "tel": "+32491630566"
+  },
+  "hero": {
+    "kop": "De ruimte die u wil,\ngebouwd en afgewerkt",
+    "sub": "",
+    "knop1": "Vraag een offerte aan",
+    "slides": [
+      {
+        "img": "zolderkamer-airco",
+        "alt": "Afgewerkte zolderkamer met zwarte balken en een dakvenster"
+      },
+      {
+        "img": "achterbouw-terras",
+        "alt": "Gepleisterde achterbouw met zwart buitenschrijnwerk en een terras"
+      },
+      {
+        "img": "uitbouw-tuinzijde",
+        "alt": "Afgewerkte uitbouw met houten gevelbekleding en schuiframen"
+      },
+      {
+        "img": "bad-af",
+        "alt": "Badkamer met een bad ingemetseld voor het raam en zicht op de tuin"
+      },
+      {
+        "img": "douche-overzicht",
+        "alt": "Badkamer met inloopdouche achter glas en een zwevend meubel"
+      }
+    ],
+    "vorige": "Vorige foto",
+    "volgende": "Volgende foto"
+  },
+  "feiten": [
+    {
+      "getal": "5,0",
+      "label": "Score op Google"
+    },
+    {
+      "getal": "8",
+      "label": "Beoordelingen"
+    },
+    {
+      "getal": "Herent, Leuven en omstreken",
+      "label": "Werkgebied",
+      "breed": true
+    }
+  ],
+  "over": {
+    "kop_sterk": "Achter Expert Renovaties staat Kris Swistak.",
+    "kop_licht": "Wij staan zelf mee op de werken en leveren de ruimte afgewerkt op.",
+    "tekst": "Wat wij uitbreken, bouwen wij opnieuw op. Pleisterwerk, vloeren, tegelwerk, sanitair en het schrijnwerk errond horen bij dezelfde opdracht.",
+    "knop": "Bekijk ons werk",
+    "fotos": [
+      {
+        "img": "bad-af",
+        "alt": "Badkamer met een bad ingemetseld voor het raam"
+      },
+      {
+        "img": "uitbouw-raam",
+        "alt": "Kris aan het werk op een ladder bij de raampartij van een uitbouw"
+      },
+      {
+        "img": "keuken-overzicht",
+        "alt": "Witte keuken met zwarte metrotegels onder een houten plafond"
+      },
+      {
+        "img": "zolder-kamer",
+        "alt": "Afgewerkte kamer onder het dak met een binnendeur en laminaat"
+      }
+    ]
+  },
+  "diensten": {
+    "kop": "Onze diensten",
+    "tekst": "Het werk dat wij zelf uitvoeren in woningen en appartementen.",
+    "knop": "Vraag een offerte aan",
+    "groepen": [
+      {
+        "id": "totaalrenovatie",
+        "titel": "Totaalrenovatie",
+        "tekst": "Uw woning gaat open en komt afgewerkt terug. Wij breken uit, bouwen opnieuw op en werken af tot de laatste plint.",
+        "img": "ruwbouw-stelling",
+        "alt": "Achtergevel in ruwbouw met stelling tijdens een volledige renovatie",
+        "onderdelen": [
+          "Uitbraak",
+          "Ruwbouw",
+          "Pleisterwerk",
+          "Vloeren en tegels",
+          "Afwerking"
+        ],
+        "label": "Woning"
+      },
+      {
+        "id": "badkamers",
+        "titel": "Badkamers en keukens",
+        "tekst": "Leidingen, tegelwerk, sanitair en het meubel. U krijgt de ruimte terug klaar voor gebruik.",
+        "img": "douche-overzicht",
+        "alt": "Badkamer met inloopdouche achter een glazen wand en een zwevend meubel",
+        "onderdelen": [
+          "Leidingen",
+          "Tegelwerk",
+          "Douche of bad",
+          "Meubel",
+          "Keuken plaatsen"
+        ],
+        "label": "Badkamer"
+      },
+      {
+        "id": "uitbouw",
+        "titel": "Uitbouw en isolatie",
+        "tekst": "Een extra ruimte tegen uw woning, of een zolder die een kamer wordt. Met isolatie, gevelbekleding en groot schrijnwerk.",
+        "img": "uitbouw-hoek",
+        "alt": "Uitbouw met verticale houten gevelbekleding en zwarte raamprofielen",
+        "onderdelen": [
+          "Draagstructuur",
+          "Isolatie",
+          "Gevelbekleding",
+          "Dakkamers",
+          "Airco en verwarming"
+        ],
+        "label": "Uitbreiden"
+      }
+    ]
+  },
+  "werkwijze": {
+    "kop_sterk": "Zo verloopt uw verbouwing",
+    "kop_licht": "Vier stappen. U weet vooraf wat er gebeurt en wanneer.",
+    "foto": "uitbouw-raam",
+    "foto_alt": "Kris werkt op een ladder aan de raampartij van een uitbouw",
+    "stappen": [
+      {
+        "nr": "01",
+        "titel": "Plaatsbezoek",
+        "tekst": "U toont de ruimte en zegt wat u ermee wil. Wij meten op en zeggen wat er technisch mogelijk is."
+      },
+      {
+        "nr": "02",
+        "titel": "Offerte",
+        "tekst": "Opgesplitst per onderdeel, met de materialen erbij, zodat u ziet waarvoor u betaalt."
+      },
+      {
+        "nr": "03",
+        "titel": "Uitvoering",
+        "tekst": "Dezelfde ploeg doet de ruwbouw en de afwerking. Wij schermen af en houden de rest van uw woning proper."
+      },
+      {
+        "nr": "04",
+        "titel": "Oplevering",
+        "tekst": "U loopt de ruimte na met ons en wij zetten recht wat u aanwijst."
+      }
+    ]
+  },
+  "voorna": {
+    "kop_sterk": "Dezelfde ruimte, voor en na",
+    "kop_licht": "Sleep de balk over de foto.",
+    "voor": "Voor",
+    "na": "Na",
+    "vorige": "Vorig project",
+    "volgende": "Volgend project",
+    "paren": [
+      {
+        "titel": "Badkamer",
+        "voor": "bad-ruw",
+        "na": "bad-af",
+        "voor_alt": "Badkamer tijdens de werken, met het bad al ingemetseld en de wanden nog kaal",
+        "na_alt": "Dezelfde badkamer afgewerkt, met tegelwerk, regendouches en een natuurstenen vloer"
+      },
+      {
+        "titel": "Uitbouw",
+        "voor": "uitbouw-folie",
+        "na": "uitbouw-tuinzijde",
+        "voor_alt": "Uitbouw in dampscherm met stelling, voor de gevelbekleding",
+        "na_alt": "Dezelfde uitbouw met de houten gevelbekleding geplaatst"
+      }
+    ]
+  },
+  "waarom": {
+    "kop_sterk": "Waarom Expert Renovaties",
+    "intro": "Een renovatie is meer dan uitbreken en opnieuw opbouwen. Het werk loopt vast op de aansluitingen. De tegelzetter wacht op de pleisteraar, de badkamer staat stil omdat de leidingen nog niet liggen. Wij nemen de ruwbouw en de afwerking samen aan, met dezelfde ploeg.",
+    "items": [
+      {
+        "nr": "01",
+        "titel": "Advies aan huis",
+        "tekst": "U zegt wat u wil, wij zeggen wat er technisch kan en wat het kost. Het plaatsbezoek en de prijs kosten u niets."
+      },
+      {
+        "nr": "02",
+        "titel": "Prijs per onderdeel",
+        "tekst": "De prijs staat op papier voor het werk begint, opgesplitst per post. Wat er tijdens de werken bijkomt, bespreken wij eerst."
+      },
+      {
+        "nr": "03",
+        "titel": "Afwerking inbegrepen",
+        "tekst": "Pleisterwerk, tegels, sanitair en de plinten horen bij dezelfde opdracht. Dezelfde mensen die uitbreken, werken ook af."
+      }
+    ],
+    "knop": "Bekijk ons werk",
+    "fotos": [
+      {
+        "img": "uitbouw-stelling",
+        "alt": "Uitbouw met stelling tijdens de plaatsing van de gevelbekleding"
+      },
+      {
+        "img": "douche-nissen",
+        "alt": "Inbouwnissen in de tegelwand van een inloopdouche"
+      }
+    ]
+  },
+  "cta": {
+    "kop_sterk": "Uw project bespreken?",
+    "tekst": "Laat weten wat u wil laten doen. Wij komen langs, meten op en bezorgen u een prijs per onderdeel.",
+    "knop": "Bel +32 491 63 05 66",
+    "foto": "achterbouw-terras",
+    "foto_alt": "Gepleisterde achterbouw met zwart buitenschrijnwerk en een terras in grote tegels",
+    "formulier": {
+      "kop": "Vraag een offerte aan",
+      "naam": "Naam",
+      "naam_p": "Uw naam",
+      "mail": "E-mail",
+      "mail_p": "uw@email.be",
+      "tel": "Telefoon",
+      "tel_p": "04xx xx xx xx",
+      "soort": "Soort werk",
+      "soort_opties": [
+        "Kies een soort werk",
+        "Badkamer",
+        "Keuken",
+        "Zolder of dakkamer",
+        "Uitbouw of aanbouw",
+        "Totaalrenovatie",
+        "Vloeren en tegels",
+        "Pleisterwerk",
+        "Airco of verwarming",
+        "Iets anders"
+      ],
+      "bericht": "Bericht",
+      "bericht_p": "Vertel kort wat u wil laten doen",
+      "knop": "Versturen",
+      "bedankt": "Bedankt. Dit is een voorbeeldsite, uw bericht wordt niet verstuurd."
+    }
+  },
+  "realisaties": {
+    "kop_sterk": "Realisaties",
+    "kop_licht": "Een greep uit ons werk.",
+    "meer": "foto's",
+    "items": [
+      {
+        "titel": "Uitbouw",
+        "slug": "uitbouw",
+        "fotos": [
+          {
+            "img": "uitbouw-hoek",
+            "alt": "Afgewerkte uitbouw met houten gevelbekleding en grote raampartij"
+          },
+          {
+            "img": "uitbouw-tuinzijde",
+            "alt": "Uitbouw vanuit de tuin met schuiframen over de volle breedte"
+          },
+          {
+            "img": "uitbouw-schuifraam",
+            "alt": "Uitbouw met schuifraam en houten gevel tegen een witte woning"
+          },
+          {
+            "img": "uitbouw-avond",
+            "alt": "Uitbouw in het avondlicht met de houten gevel volledig gesloten"
+          },
+          {
+            "img": "uitbouw-zijkant",
+            "alt": "Zijgevel van de uitbouw in hout tegen het rode metselwerk van de woning"
+          }
+        ]
+      },
+      {
+        "titel": "Badkamer",
+        "slug": "bad",
+        "fotos": [
+          {
+            "img": "bad-af",
+            "alt": "Afgewerkte badkamer met ingemetseld bad voor het raam en een natuurstenen vloer"
+          },
+          {
+            "img": "bad-zicht",
+            "alt": "Badkamer met twee regendouches en zicht op de tuin door het raam"
+          },
+          {
+            "img": "bad-ruw",
+            "alt": "Dezelfde badkamer tijdens de werken, met het bad al ingemetseld"
+          }
+        ]
+      },
+      {
+        "titel": "Inloopdouche",
+        "slug": "douche",
+        "fotos": [
+          {
+            "img": "douche-overzicht",
+            "alt": "Badkamer met inloopdouche achter glas en een houten zwevend meubel"
+          },
+          {
+            "img": "douche-breed",
+            "alt": "Brede opname van dezelfde badkamer met de spiegelwand boven het meubel"
+          },
+          {
+            "img": "douche-nissen",
+            "alt": "Inbouwnissen in de tegelwand van de douche met bediening in brons"
+          },
+          {
+            "img": "douche-radiator",
+            "alt": "Zwarte handdoekradiator naast de tegelwand van de douche"
+          }
+        ]
+      },
+      {
+        "titel": "Zolder",
+        "slug": "zolder",
+        "fotos": [
+          {
+            "img": "zolder-kamer",
+            "alt": "Afgewerkte kamer onder het dak met binnendeur en laminaat"
+          },
+          {
+            "img": "zolder-dakvenster",
+            "alt": "Kamer onder het dak met dakvenster en gepleisterde schuine wand"
+          },
+          {
+            "img": "zolder-gang",
+            "alt": "Gang op de zolderverdieping met twee witte binnendeuren"
+          },
+          {
+            "img": "zolder-overloop",
+            "alt": "Overloop met laminaat langs de gepleisterde borstwering"
+          },
+          {
+            "img": "zolder-balustrade",
+            "alt": "Borstwering langs de trapopening op de zolderverdieping"
+          }
+        ]
+      },
+      {
+        "titel": "Dakkamer",
+        "slug": "zolderkamer",
+        "fotos": [
+          {
+            "img": "zolderkamer-airco",
+            "alt": "Zolderkamer met zwarte balken, dakvenster en airco aan de wand"
+          },
+          {
+            "img": "zolderkamer-vloer",
+            "alt": "Afgewerkte zolderkamer met houten vloer onder het schuine dak"
+          }
+        ]
+      },
+      {
+        "titel": "Keuken",
+        "slug": "keuken",
+        "fotos": [
+          {
+            "img": "keuken-overzicht",
+            "alt": "Witte keuken met zwarte metrotegels en spots in het houten plafond"
+          },
+          {
+            "img": "keuken-werkblad",
+            "alt": "Werkblad van de keuken met kookplaat en dampkap tijdens de plaatsing"
+          }
+        ]
+      },
+      {
+        "titel": "Achterbouw",
+        "slug": "achterbouw",
+        "fotos": [
+          {
+            "img": "achterbouw-terras",
+            "alt": "Witte achterbouw met zwarte deuren en een terras in grote tegels"
+          },
+          {
+            "img": "ruwbouw-stelling",
+            "alt": "Achtergevel in ruwbouw met stelling tijdens de werken"
+          }
+        ]
+      }
+    ],
+    "knop": "Bekijk alle realisaties"
+  },
+  "reviews": {
+    "kop_sterk": "Wat klanten schrijven",
+    "kop_licht": "Acht beoordelingen op Google, allemaal vijf sterren.",
+    "bron": "Google",
+    "score": "5,0",
+    "vorige": "Vorige review",
+    "volgende": "Volgende review",
+    "foto": "douche-breed",
+    "foto_alt": "Afgewerkte badkamer met inloopdouche achter glas",
+    "items": [
+      {
+        "naam": "Anton Swillens",
+        "wanneer": "10 maanden geleden",
+        "sterren": 5,
+        "tekst": "Heel tevreden over Kris zijn werk. Hij denkt echt mee en niets is te veel gevraagd. Alles vakkundig uitgevoerd, met eerlijke en transparante prijzen. Zeer betrouwbaar en aangenaam in de omgang. Een echte aanrader te regio Leuven en omstreken!"
+      },
+      {
+        "naam": "Marc Herman",
+        "wanneer": "2 jaar geleden",
+        "sterren": 5,
+        "tekst": "Kris denkt mee met zijn klant mee en adviseert zowel in aanloop als gedurende het project. Wensen vertaalt hij naar een technisch haalbare oplossing. Hij helpt kiezen voor de beste oplossing aan de scherpste prijs."
+      },
+      {
+        "naam": "Marianne Herssens",
+        "wanneer": "4 jaar geleden",
+        "sterren": 5,
+        "tekst": "Wij zijn heel tevreden met het geleverde werk van deze firma, Kris is een zeer bekwaam vakman. Al wat hij gedaan heeft is perfect uitgevoerd en aan een correcte prijs. Het is een harde werker die zijn werk heel goed kent en hij is van zijn woord."
+      }
+    ]
+  },
+  "contact": {
+    "kop": "Contact",
+    "adres_label": "Adres",
+    "adres": "Kerkstraat 36<br>3020 Herent",
+    "tel_label": "Telefoon",
+    "tel1": "+32 491 63 05 66",
+    "tel1_url": "+32491630566",
+    "tel2": "",
+    "tel2_url": "",
+    "mail_label": "E-mail",
+    "mail": "k-swistak@wp.pl",
+    "btw_label": "Ondernemingsnummer",
+    "btw": "BE 1018.081.910"
+  },
+  "footer": {
+    "zin": "Badkamers, zolders, keukens en uitbouwen in Herent, Leuven en de gemeenten daarrond.",
+    "kop_diensten": "Onze diensten",
+    "kop_bedrijf": "Bedrijf",
+    "kop_contact": "Contact",
+    "bedrijf": [
+      {
+        "label": "Waarom Expert Renovaties",
+        "naar": "#waarom"
+      },
+      {
+        "label": "Werkwijze",
+        "naar": "#werkwijze"
+      },
+      {
+        "label": "Realisaties",
+        "naar": "#realisaties"
+      },
+      {
+        "label": "Contact",
+        "naar": "#contact"
+      }
+    ],
+    "instagram": "",
+    "instagram_url": "",
+    "facebook": "Facebook",
+    "facebook_url": "https://www.facebook.com/Kris.Expert/",
+    "rechten": "© 2026 Expert Renovaties BV"
+  },
+  "merken": {
+    "kop": "",
+    "items": []
+  }
+}

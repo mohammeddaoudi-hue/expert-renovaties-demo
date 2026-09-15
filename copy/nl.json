@@ -54,6 +54,7 @@
     }
   ],
   "bel": {
+    "kort": "Bel",
     "label": "Bel ons",
     "nummer": "+32 491 63 05 66",
     "tel": "+32491630566"
@@ -192,12 +193,12 @@
       {
         "nr": "02",
         "titel": "Offerte",
-        "tekst": "Opgesplitst per onderdeel, met de materialen erbij, zodat u ziet waarvoor u betaalt."
+        "tekst": "Elk onderdeel staat apart op de offerte, met zijn eigen prijs."
       },
       {
         "nr": "03",
         "titel": "Uitvoering",
-        "tekst": "Dezelfde ploeg doet de ruwbouw en de afwerking. Wij schermen af en houden de rest van uw woning proper."
+        "tekst": "Onze ploeg werkt door tot de ruimte klaar is."
       },
       {
         "nr": "04",

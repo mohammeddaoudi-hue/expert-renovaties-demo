@@ -97,8 +97,8 @@ a.er-taal:hover { color: var(--merk); background: var(--merk-licht); }
 .er-kop { position: sticky; top: 0; z-index: 60; background: var(--wit); border-bottom: 1px solid var(--lijn); }
 .er-kop__in { display: flex; align-items: center; gap: 34px; min-height: 84px; }
 .er-logo img { width: auto; height: 44px; }
-.er-nav ul { display: flex; gap: 30px; }
-.er-nav a { font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 15.5px; font-weight: 600; color: var(--inkt); padding: 8px 0; border-bottom: 2px solid transparent; }
+.er-nav ul { display: flex; gap: 26px; flex-wrap: nowrap; }
+.er-nav a { font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 15.5px; font-weight: 600; color: var(--inkt); padding: 8px 0; border-bottom: 2px solid transparent; white-space: nowrap; }
 .er-nav a:hover { color: var(--merk); border-color: var(--merk); }
 .er-kop__bel { height: 48px; font-size: 15px; }
 

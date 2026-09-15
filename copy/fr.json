@@ -54,6 +54,7 @@
     }
   ],
   "bel": {
+    "kort": "Appelez le",
     "label": "Appelez-nous",
     "nummer": "+32 491 63 05 66",
     "tel": "+32491630566"
@@ -192,12 +193,12 @@
       {
         "nr": "02",
         "titel": "Devis",
-        "tekst": "Détaillé poste par poste, matériaux compris, pour que vous voyiez ce que vous payez."
+        "tekst": "Chaque poste figure séparément sur le devis, avec son propre prix."
       },
       {
         "nr": "03",
         "titel": "Exécution",
-        "tekst": "La même équipe réalise le gros oeuvre et les finitions. Nous protégeons les accès et nous gardons le reste de votre habitation propre."
+        "tekst": "Notre équipe travaille jusqu'à ce que la pièce soit prête."
       },
       {
         "nr": "04",

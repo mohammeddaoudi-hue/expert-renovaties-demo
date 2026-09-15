@@ -95,7 +95,7 @@ const kop = `
       <ul>${t.nav.map(n => `<li><a href="${esc(n.naar)}">${esc(n.label)}</a></li>`).join('')}</ul>
     </nav>
     ${taalkeuze(BESTAND).replace('er-talen', 'er-talen er-talen--kop')}
-    <a class="er-knop er-knop--vol er-kop__bel" href="tel:${esc(t.bel.tel)}">Bel ${esc(t.bel.nummer)}</a>
+    <a class="er-knop er-knop--vol er-kop__bel" href="tel:${esc(t.bel.tel)}">${esc(t.bel.kort)} ${esc(t.bel.nummer)}</a>
     <button class="er-menuknop" type="button" aria-expanded="false" aria-controls="er-mobielmenu" aria-label="Menu openen"><span class="er-menuknop__lijnen" aria-hidden="true"><span></span><span></span><span></span></span></button>
   </div>
   <div class="er-mobielmenu" id="er-mobielmenu" hidden>
@@ -310,7 +310,7 @@ const reviews = `
           <span class="er-rev__aanhaling" aria-hidden="true">&ldquo;</span>
           <p class="er-rev__tekst">${esc(r.tekst)}</p>
           <p class="er-rev__naam">${esc(r.naam)}</p>
-          <p class="er-rev__bron">${esc(t.reviews.bron)}-review · ${esc(r.wanneer)}</p>
+          <p class="er-rev__bron">${esc(t.reviews.bron)}-review</p>
         </li>`).join('')}
       </ul></div>
       <div class="er-reviews__bediening">

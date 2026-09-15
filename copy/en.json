@@ -54,6 +54,7 @@
     }
   ],
   "bel": {
+    "kort": "Call",
     "label": "Call us",
     "nummer": "+32 491 63 05 66",
     "tel": "+32491630566"
@@ -192,12 +193,12 @@
       {
         "nr": "02",
         "titel": "Quote",
-        "tekst": "Broken down item by item, with the materials listed, so you can see what you are paying for."
+        "tekst": "Every item appears separately on the quote, with its own price."
       },
       {
         "nr": "03",
         "titel": "The work",
-        "tekst": "The same team does the structural work and the finishing. We screen off the work area and keep the rest of your home clean."
+        "tekst": "Our team works through until the room is finished."
       },
       {
         "nr": "04",

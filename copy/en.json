@@ -1,0 +1,517 @@
+{
+  "_werkblad": {
+    "lezer_en_pijn": "Huiseigenaar in Herent, Leuven of een gemeente daarrond met een badkamer, zolder, keuken of te kleine leefruimte die aan renovatie toe is. Hij vreest dat hij drie aannemers moet regelen voor één ruimte en dat de afwerking blijft liggen zodra de ruwbouw klaar is.",
+    "belofte": "Hij krijgt de ruimte terug zoals ze bedoeld was, afgewerkt en klaar voor gebruik, van dezelfde ploeg die ze heeft uitgebroken.",
+    "proces": "Iedereen toont een afgewerkte foto en zegt dat het kan. Wij bekijken eerst de ruimte, zeggen wat er technisch mogelijk is en voeren het dan zelf uit.",
+    "bewijs": "31 eigen werkfoto's uit zeven projecten, twee sleepbare voor-en-na's van dezelfde ruimte, 5,0 op Google met acht beoordelingen en drie reviews op naam, KBO-gegevens.",
+    "vorm_per_sectie": "hero uitkomst-eerst, feiten cijfers, over feit-eerst, diensten drie groepen, werkwijze proces, voor en na bewijs, waarom redenen uit de reviews, realisaties beeld, reviews stemmen, contact vraag"
+  },
+  "_aannames": [
+    "Bedrijfsgegevens komen uit de KBO (1018.081.910), hun Google-profiel, hun Facebook-pagina en hun eigen website expert-renovaties.be.",
+    "Alle foto's zijn hun eigen werkfoto's: 26 uit de mediabibliotheek van hun website (2020 en 2021) en 5 van hun Google-profiel. Er is geen stockfoto gebruikt.",
+    "De diensten volgen uit de NACE-codes in de KBO en uit wat op hun eigen foto's te zien is.",
+    "Het e-mailadres k-swistak@wp.pl staat publiek op hun Facebook-pagina.",
+    "Geen enkel cijfer is verzonnen: 5,0 en acht beoordelingen komen van Google, het ondernemingsnummer uit de KBO.",
+    "De twee voor-en-na-paren zijn op een parenblad gecontroleerd: het is dezelfde ruimte vanuit vrijwel dezelfde hoek.",
+    "De site spreekt in de wij-vorm, zoals het bedrijf zelf. Alleen in de reviews staat de derde persoon, want dat zijn de woorden van de klant.",
+    "De strook met materiaalmerken uit de Rai Bouw-demo staat hier niet: met welke merken dit bedrijf werkt is nergens terug te vinden, en verzonnen logo's zijn verzonnen feiten."
+  ],
+  "meta": {
+    "titel": "Expert Renovaties | Bathrooms, attics and extensions in Herent and Leuven",
+    "omschrijving": "Expert Renovaties renovates bathrooms, attics, kitchens and extensions in Herent, Leuven and the surrounding municipalities. We measure up, build and finish the work.",
+    "naam": "Expert Renovaties"
+  },
+  "top": {
+    "adres": "Kerkstraat 36, 3020 Herent",
+    "mail": "k-swistak@wp.pl",
+    "volg": "Follow us"
+  },
+  "merk": {
+    "woord1": "EXPERT",
+    "woord2": "RENOVATIES",
+    "onder": "Bathrooms, attics and extensions"
+  },
+  "nav": [
+    {
+      "label": "About us",
+      "naar": "#waarom"
+    },
+    {
+      "label": "Services",
+      "naar": "#diensten"
+    },
+    {
+      "label": "How we work",
+      "naar": "#werkwijze"
+    },
+    {
+      "label": "Projects",
+      "naar": "#realisaties"
+    },
+    {
+      "label": "Contact",
+      "naar": "#contact"
+    }
+  ],
+  "bel": {
+    "label": "Call us",
+    "nummer": "+32 491 63 05 66",
+    "tel": "+32491630566"
+  },
+  "hero": {
+    "kop": "Your partner for a full renovation\nfrom A to Z",
+    "sub": "",
+    "knop1": "Request a quote",
+    "slides": [
+      {
+        "img": "zolderkamer-airco",
+        "alt": "Finished attic room with black beams and a roof window"
+      },
+      {
+        "img": "achterbouw-terras",
+        "alt": "Plastered rear extension with black exterior joinery and a terrace"
+      },
+      {
+        "img": "uitbouw-tuinzijde",
+        "alt": "Finished extension with timber cladding and sliding windows"
+      },
+      {
+        "img": "bad-af",
+        "alt": "Bathroom with a built-in bath in front of the window and a view of the garden"
+      },
+      {
+        "img": "douche-overzicht",
+        "alt": "Bathroom with a walk-in shower behind glass and a wall-hung vanity unit"
+      }
+    ],
+    "vorige": "Previous photo",
+    "volgende": "Next photo"
+  },
+  "feiten": [
+    {
+      "getal": "5,0",
+      "label": "Google rating"
+    },
+    {
+      "getal": "8",
+      "label": "Reviews"
+    },
+    {
+      "getal": "Herent, Leuven en omstreken",
+      "label": "Service area",
+      "breed": true
+    }
+  ],
+  "over": {
+    "kop_sterk": "Expert Renovaties is run by Kris Swistak.",
+    "kop_licht": "We work on site ourselves and hand the space over finished.",
+    "tekst": "Whatever we strip out, we build back up. Plastering, floors, tiling, bathroom fittings and the joinery around them are part of the same job.",
+    "knop": "See our work",
+    "fotos": [
+      {
+        "img": "bad-af",
+        "alt": "Bathroom with a built-in bath in front of the window"
+      },
+      {
+        "img": "uitbouw-raam",
+        "alt": "Kris working on a ladder by the window section of an extension"
+      },
+      {
+        "img": "keuken-overzicht",
+        "alt": "White kitchen with black metro tiles under a wooden ceiling"
+      },
+      {
+        "img": "zolder-kamer",
+        "alt": "Finished room under the roof with an internal door and laminate flooring"
+      }
+    ]
+  },
+  "diensten": {
+    "kop": "Our services",
+    "tekst": "The work we carry out ourselves in houses and flats.",
+    "knop": "Request a quote",
+    "groepen": [
+      {
+        "id": "totaalrenovatie",
+        "titel": "Full renovation",
+        "tekst": "Your home is opened up and comes back finished. We strip it out, build it back up and finish it down to the last skirting board.",
+        "img": "ruwbouw-stelling",
+        "alt": "Rear facade at structural stage with scaffolding up during a full renovation",
+        "onderdelen": [
+          "Strip-out",
+          "Structural work",
+          "Plastering",
+          "Floors and tiling",
+          "Finishing"
+        ],
+        "label": "Home"
+      },
+      {
+        "id": "badkamers",
+        "titel": "Bathrooms and kitchens",
+        "tekst": "Pipework, tiling, bathroom fittings and the vanity unit. You get the room back ready to use.",
+        "img": "douche-overzicht",
+        "alt": "Bathroom with a walk-in shower behind a glass screen and a wall-hung vanity unit",
+        "onderdelen": [
+          "Pipework",
+          "Tiling",
+          "Shower or bath",
+          "Vanity unit",
+          "Kitchen fitting"
+        ],
+        "label": "Bathroom"
+      },
+      {
+        "id": "uitbouw",
+        "titel": "Extension and insulation",
+        "tekst": "An extra room built onto your home, or an attic that becomes a room. With insulation, exterior cladding and large window joinery.",
+        "img": "uitbouw-hoek",
+        "alt": "Extension with vertical timber cladding and black window frames",
+        "onderdelen": [
+          "Load-bearing structure",
+          "Insulation",
+          "Exterior cladding",
+          "Loft rooms",
+          "Air conditioning and heating"
+        ],
+        "label": "Extending"
+      }
+    ]
+  },
+  "werkwijze": {
+    "kop_sterk": "How your renovation works",
+    "kop_licht": "Four steps. You know in advance what happens and when.",
+    "foto": "uitbouw-raam",
+    "foto_alt": "Kris working on a ladder at the window section of an extension",
+    "stappen": [
+      {
+        "nr": "01",
+        "titel": "Site visit",
+        "tekst": "You show us the space and tell us what you want from it. We measure up and tell you what is technically possible."
+      },
+      {
+        "nr": "02",
+        "titel": "Quote",
+        "tekst": "Broken down item by item, with the materials listed, so you can see what you are paying for."
+      },
+      {
+        "nr": "03",
+        "titel": "The work",
+        "tekst": "The same team does the structural work and the finishing. We screen off the work area and keep the rest of your home clean."
+      },
+      {
+        "nr": "04",
+        "titel": "Handover",
+        "tekst": "You walk through the space with us and we put right anything you point out."
+      }
+    ]
+  },
+  "voorna": {
+    "kop_sterk": "The same space, before and after",
+    "kop_licht": "Drag the slider across the photo.",
+    "voor": "Before",
+    "na": "After",
+    "vorige": "Previous project",
+    "volgende": "Next project",
+    "paren": [
+      {
+        "titel": "Bathroom",
+        "voor": "bad-ruw",
+        "na": "bad-af",
+        "voor_alt": "Bathroom during the works, with the bath already built in and the walls still bare",
+        "na_alt": "The same bathroom finished, with tiling, rain showers and a natural stone floor"
+      },
+      {
+        "titel": "Extension",
+        "voor": "uitbouw-folie",
+        "na": "uitbouw-tuinzijde",
+        "voor_alt": "Extension wrapped in a vapour barrier with scaffolding up, before the cladding went on",
+        "na_alt": "The same extension with the timber cladding fitted"
+      }
+    ]
+  },
+  "waarom": {
+    "kop_sterk": "Why Expert Renovaties",
+    "intro": "A renovation is more than stripping out and building back up. The work stalls where the trades meet. The tiler waits for the plasterer, the bathroom sits idle because the pipework is not in yet. We take on the whole job, with our own teams.",
+    "items": [
+      {
+        "nr": "01",
+        "titel": "Advice at your home",
+        "tekst": "You tell us what you want, we tell you what is technically possible and what it will cost. The site visit and the quote cost you nothing."
+      },
+      {
+        "nr": "02",
+        "titel": "Binding quote",
+        "tekst": "The price is on paper before the work starts, itemised. Anything extra that comes up during the works, we discuss with you first."
+      },
+      {
+        "nr": "03",
+        "titel": "Smooth coordination",
+        "tekst": "We carry out every part ourselves. That keeps your renovation moving."
+      }
+    ],
+    "knop": "See our work",
+    "fotos": [
+      {
+        "img": "uitbouw-stelling",
+        "alt": "Extension with scaffolding up while the cladding is being fitted"
+      },
+      {
+        "img": "douche-nissen",
+        "alt": "Recessed niches in the tiled wall of a walk-in shower"
+      }
+    ]
+  },
+  "cta": {
+    "kop_sterk": "Want to discuss your project?",
+    "tekst": "Tell us what you would like done. We come out, measure up and give you a price for each part of the job.",
+    "knop": "Call +32 491 63 05 66",
+    "foto": "achterbouw-terras",
+    "foto_alt": "Plastered rear extension with black exterior joinery and a terrace in large tiles",
+    "formulier": {
+      "kop": "Request a quote",
+      "naam": "Naam",
+      "naam_p": "Your name",
+      "mail": "E-mail",
+      "mail_p": "your@email.be",
+      "tel": "Telefoon",
+      "tel_p": "04xx xx xx xx",
+      "soort": "Type of work",
+      "soort_opties": [
+        "Choose a type of work",
+        "Bathroom",
+        "Kitchen",
+        "Attic or loft room",
+        "Extension or annexe",
+        "Full renovation",
+        "Floors and tiling",
+        "Plastering",
+        "Air conditioning or heating",
+        "Something else"
+      ],
+      "bericht": "Message",
+      "bericht_p": "Tell us briefly what you would like done",
+      "knop": "Send",
+      "bedankt": "Thank you. This is a sample site, your message will not be sent."
+    }
+  },
+  "realisaties": {
+    "kop_sterk": "Projects",
+    "kop_licht": "A selection of our work.",
+    "meer": "photos",
+    "items": [
+      {
+        "titel": "Extension",
+        "slug": "uitbouw",
+        "fotos": [
+          {
+            "img": "uitbouw-hoek",
+            "alt": "Finished extension with timber cladding and a large window section"
+          },
+          {
+            "img": "uitbouw-tuinzijde",
+            "alt": "Extension seen from the garden, with sliding windows running the full width"
+          },
+          {
+            "img": "uitbouw-schuifraam",
+            "alt": "Extension with a sliding window and a timber facade against a white house"
+          },
+          {
+            "img": "uitbouw-avond",
+            "alt": "Extension in the evening light, with the timber facade fully closed"
+          },
+          {
+            "img": "uitbouw-zijkant",
+            "alt": "Timber side wall of the extension against the red brickwork of the house"
+          }
+        ]
+      },
+      {
+        "titel": "Bathroom",
+        "slug": "bad",
+        "fotos": [
+          {
+            "img": "bad-af",
+            "alt": "Finished bathroom with a built-in bath in front of the window and a natural stone floor"
+          },
+          {
+            "img": "bad-zicht",
+            "alt": "Bathroom with two rain showers and a view of the garden through the window"
+          },
+          {
+            "img": "bad-ruw",
+            "alt": "The same bathroom during the works, with the bath already built in"
+          }
+        ]
+      },
+      {
+        "titel": "Walk-in shower",
+        "slug": "douche",
+        "fotos": [
+          {
+            "img": "douche-overzicht",
+            "alt": "Bathroom with a walk-in shower behind glass and a wall-hung wooden vanity unit"
+          },
+          {
+            "img": "douche-breed",
+            "alt": "Wide shot of the same bathroom with the mirrored wall above the vanity unit"
+          },
+          {
+            "img": "douche-nissen",
+            "alt": "Recessed niches in the tiled shower wall with bronze controls"
+          },
+          {
+            "img": "douche-radiator",
+            "alt": "Black towel radiator beside the tiled shower wall"
+          }
+        ]
+      },
+      {
+        "titel": "Attic",
+        "slug": "zolder",
+        "fotos": [
+          {
+            "img": "zolder-kamer",
+            "alt": "Finished room under the roof with an internal door and laminate flooring"
+          },
+          {
+            "img": "zolder-dakvenster",
+            "alt": "Room under the roof with a roof window and a plastered sloping wall"
+          },
+          {
+            "img": "zolder-gang",
+            "alt": "Hallway on the attic floor with two white internal doors"
+          },
+          {
+            "img": "zolder-overloop",
+            "alt": "Landing with laminate flooring along the plastered balustrade wall"
+          },
+          {
+            "img": "zolder-balustrade",
+            "alt": "Balustrade wall along the stairwell opening on the attic floor"
+          }
+        ]
+      },
+      {
+        "titel": "Loft room",
+        "slug": "zolderkamer",
+        "fotos": [
+          {
+            "img": "zolderkamer-airco",
+            "alt": "Attic room with black beams, a roof window and a wall-mounted air conditioning unit"
+          },
+          {
+            "img": "zolderkamer-vloer",
+            "alt": "Finished attic room with a wooden floor under the sloping roof"
+          }
+        ]
+      },
+      {
+        "titel": "Kitchen",
+        "slug": "keuken",
+        "fotos": [
+          {
+            "img": "keuken-overzicht",
+            "alt": "White kitchen with black metro tiles and spotlights in the wooden ceiling"
+          },
+          {
+            "img": "keuken-werkblad",
+            "alt": "Kitchen worktop with the hob and extractor hood being installed"
+          }
+        ]
+      },
+      {
+        "titel": "Rear extension",
+        "slug": "achterbouw",
+        "fotos": [
+          {
+            "img": "achterbouw-terras",
+            "alt": "White rear extension with black doors and a terrace in large tiles"
+          },
+          {
+            "img": "ruwbouw-stelling",
+            "alt": "Rear facade at structural stage with scaffolding up during the works"
+          }
+        ]
+      }
+    ],
+    "knop": "See all projects"
+  },
+  "reviews": {
+    "kop_sterk": "What customers write",
+    "kop_licht": "Eight reviews on Google, all five stars.",
+    "bron": "Google",
+    "score": "5.0",
+    "vorige": "Previous review",
+    "volgende": "Next review",
+    "foto": "bad-zicht",
+    "foto_alt": "Finished bathroom with two rain showers and a view of the garden",
+    "items": [
+      {
+        "naam": "Anton Swillens",
+        "wanneer": "10 maanden geleden",
+        "sterren": 5,
+        "tekst": "Very happy with Kris's work. He really thinks along with you and nothing is too much trouble. Everything carried out expertly, with honest and transparent prices. Very reliable and pleasant to deal with. Highly recommended in the Leuven region and the surrounding area!"
+      },
+      {
+        "naam": "Marc Herman",
+        "wanneer": "2 jaar geleden",
+        "sterren": 5,
+        "tekst": "Kris thinks along with his client and advises both in the run-up to the project and during it. He turns their wishes into a technically feasible solution. He helps them choose the best solution at the keenest price."
+      },
+      {
+        "naam": "Marianne Herssens",
+        "wanneer": "4 jaar geleden",
+        "sterren": 5,
+        "tekst": "We are very happy with the work this company delivered, Kris is a very capable craftsman. Everything he has done was carried out perfectly and at a fair price. He is a hard worker who knows his trade very well and he is a man of his word."
+      }
+    ]
+  },
+  "contact": {
+    "kop": "Contact",
+    "adres_label": "Address",
+    "adres": "Kerkstraat 36<br>3020 Herent",
+    "tel_label": "Phone",
+    "tel1": "+32 491 63 05 66",
+    "tel1_url": "+32491630566",
+    "tel2": "",
+    "tel2_url": "",
+    "mail_label": "Email",
+    "mail": "k-swistak@wp.pl",
+    "btw_label": "Company number",
+    "btw": "BE 1018.081.910"
+  },
+  "footer": {
+    "zin": "Bathrooms, attics, kitchens and extensions in Herent, Leuven and the surrounding municipalities.",
+    "kop_diensten": "Our services",
+    "kop_bedrijf": "Company",
+    "kop_contact": "Contact",
+    "bedrijf": [
+      {
+        "label": "About us",
+        "naar": "#waarom"
+      },
+      {
+        "label": "How we work",
+        "naar": "#werkwijze"
+      },
+      {
+        "label": "Projects",
+        "naar": "#realisaties"
+      },
+      {
+        "label": "Contact",
+        "naar": "#contact"
+      }
+    ],
+    "instagram": "",
+    "instagram_url": "",
+    "facebook": "Facebook",
+    "facebook_url": "https://www.facebook.com/Kris.Expert/",
+    "rechten": "© 2026 Expert Renovaties BV"
+  },
+  "merken": {
+    "kop": "",
+    "items": []
+  }
+}

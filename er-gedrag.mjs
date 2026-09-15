@@ -237,7 +237,7 @@ const browser = await puppeteer.launch({ executablePath: 'C:/Program Files/Googl
 {
   const pg = await browser.newPage();
   await pg.setViewport({ width: 1440, height: 900 });
-  for (const [pad, code, kop] of [['', 'nl', 'De ruimte die u wil']]) {
+  for (const [pad, code, kop] of [['', 'nl', 'Uw partner'], ['fr/', 'fr', 'Votre partenaire'], ['en/', 'en', 'Your partner']]) {
     const a = await pg.goto(URL + pad, { waitUntil: 'networkidle2', timeout: 60000 });
     test('pagina laadt (' + code + ')', a.status() === 200, String(a.status()));
     test('taalattribuut (' + code + ')', (await pg.$eval('html', e => e.lang)) === code);

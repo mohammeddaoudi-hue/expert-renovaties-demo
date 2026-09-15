@@ -1,0 +1,46 @@
+93 | waarom.items[0].tekst | U zegt wat u wil, wij zeggen wat er technisch kan en wat het kost. Het plaatsbezoek en de prijs kosten u niets.
+94 | waarom.items[1].titel | Bindende offerte
+95 | waarom.items[1].tekst | De prijs staat op papier voor het werk begint, opgesplitst per post. Wat er tijdens de werken bijkomt, bespreken wij eerst.
+96 | waarom.items[2].titel | Afwerking inbegrepen
+97 | waarom.items[2].tekst | Pleisterwerk, tegels, sanitair en de plinten horen bij dezelfde opdracht. Dezelfde mensen die uitbreken, werken ook af.
+98 | waarom.knop | Bekijk ons werk
+99 | waarom.fotos[0].alt | Uitbouw met stelling tijdens de plaatsing van de gevelbekleding
+100 | waarom.fotos[1].alt | Inbouwnissen in de tegelwand van een inloopdouche
+101 | cta.kop_sterk | Uw project bespreken?
+102 | cta.tekst | Laat weten wat u wil laten doen. Wij komen langs, meten op en bezorgen u een prijs per onderdeel.
+103 | cta.knop | Bel +32 491 63 05 66
+104 | cta.foto_alt | Gepleisterde achterbouw met zwart buitenschrijnwerk en een terras in grote tegels
+105 | cta.formulier.kop | Vraag een offerte aan
+106 | cta.formulier.naam_p | Uw naam
+107 | cta.formulier.mail_p | uw@email.be
+108 | cta.formulier.tel_p | 04xx xx xx xx
+109 | cta.formulier.soort | Soort werk
+110 | cta.formulier.soort_opties[0] | Kies een soort werk
+111 | cta.formulier.soort_opties[1] | Badkamer
+112 | cta.formulier.soort_opties[2] | Keuken
+113 | cta.formulier.soort_opties[3] | Zolder of dakkamer
+114 | cta.formulier.soort_opties[4] | Uitbouw of aanbouw
+115 | cta.formulier.soort_opties[5] | Totaalrenovatie
+116 | cta.formulier.soort_opties[6] | Vloeren en tegels
+117 | cta.formulier.soort_opties[7] | Pleisterwerk
+118 | cta.formulier.soort_opties[8] | Airco of verwarming
+119 | cta.formulier.soort_opties[9] | Iets anders
+120 | cta.formulier.bericht | Bericht
+121 | cta.formulier.bericht_p | Vertel kort wat u wil laten doen
+122 | cta.formulier.knop | Versturen
+123 | cta.formulier.bedankt | Bedankt. Dit is een voorbeeldsite, uw bericht wordt niet verstuurd.
+124 | realisaties.kop_sterk | Realisaties
+125 | realisaties.kop_licht | Een greep uit ons werk.
+126 | realisaties.meer | foto's
+127 | realisaties.items[0].titel | Uitbouw
+128 | realisaties.items[0].fotos[0].alt | Afgewerkte uitbouw met houten gevelbekleding en grote raampartij
+129 | realisaties.items[0].fotos[1].alt | Uitbouw vanuit de tuin met schuiframen over de volle breedte
+130 | realisaties.items[0].fotos[2].alt | Uitbouw met schuifraam en houten gevel tegen een witte woning
+131 | realisaties.items[0].fotos[3].alt | Uitbouw in het avondlicht met de houten gevel volledig gesloten
+132 | realisaties.items[0].fotos[4].alt | Zijgevel van de uitbouw in hout tegen het rode metselwerk van de woning
+133 | realisaties.items[1].titel | Badkamer
+134 | realisaties.items[1].fotos[0].alt | Afgewerkte badkamer met ingemetseld bad voor het raam en een natuurstenen vloer
+135 | realisaties.items[1].fotos[1].alt | Badkamer met twee regendouches en zicht op de tuin door het raam
+136 | realisaties.items[1].fotos[2].alt | Dezelfde badkamer tijdens de werken, met het bad al ingemetseld
+137 | realisaties.items[2].titel | Inloopdouche
+138 | realisaties.items[2].fotos[0].alt | Badkamer met inloopdouche achter glas en een houten zwevend meubel

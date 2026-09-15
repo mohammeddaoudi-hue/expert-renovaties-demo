@@ -1,0 +1,47 @@
+1 | meta.titel | Expert Renovaties | Badkamers, zolders en uitbouwen in Herent en Leuven
+2 | meta.omschrijving | Expert Renovaties verbouwt badkamers, zolders, keukens en uitbouwen in Herent, Leuven en de gemeenten daarrond. Wij meten op, bouwen op en werken af.
+3 | top.volg | Volg ons
+4 | merk.woord1 | EXPERT
+5 | merk.woord2 | RENOVATIES
+6 | merk.onder | Badkamers, zolders en uitbouwen
+7 | nav[0].label | Over ons
+8 | nav[1].label | Diensten
+9 | nav[2].label | Werkwijze
+10 | nav[3].label | Realisaties
+11 | nav[4].label | Contact
+12 | bel.label | Bel ons
+13 | hero.kop | De ruimte die u wil,
+gebouwd en afgewerkt
+14 | hero.knop1 | Vraag een offerte aan
+15 | hero.slides[0].alt | Afgewerkte zolderkamer met zwarte balken en een dakvenster
+16 | hero.slides[1].alt | Gepleisterde achterbouw met zwart buitenschrijnwerk en een terras
+17 | hero.slides[2].alt | Afgewerkte uitbouw met houten gevelbekleding en schuiframen
+18 | hero.slides[3].alt | Badkamer met een bad ingemetseld voor het raam en zicht op de tuin
+19 | hero.slides[4].alt | Badkamer met inloopdouche achter glas en een zwevend meubel
+20 | hero.vorige | Vorige foto
+21 | hero.volgende | Volgende foto
+22 | feiten[0].label | Score op Google
+23 | feiten[1].label | Beoordelingen
+24 | feiten[2].label | Werkgebied
+25 | over.kop_sterk | Achter Expert Renovaties staat Kris Swistak.
+26 | over.kop_licht | Wij staan zelf mee op de werken en leveren de ruimte afgewerkt op.
+27 | over.tekst | Wat wij uitbreken, bouwen wij opnieuw op. Pleisterwerk, vloeren, tegelwerk, sanitair en het schrijnwerk errond horen bij dezelfde opdracht.
+28 | over.knop | Bekijk ons werk
+29 | over.fotos[0].alt | Badkamer met een bad ingemetseld voor het raam
+30 | over.fotos[1].alt | Kris aan het werk op een ladder bij de raampartij van een uitbouw
+31 | over.fotos[2].alt | Witte keuken met zwarte metrotegels onder een houten plafond
+32 | over.fotos[3].alt | Afgewerkte kamer onder het dak met een binnendeur en laminaat
+33 | diensten.kop | Onze diensten
+34 | diensten.tekst | Het werk dat wij zelf uitvoeren in woningen en appartementen.
+35 | diensten.knop | Vraag een offerte aan
+36 | diensten.groepen[0].titel | Totaalrenovatie
+37 | diensten.groepen[0].tekst | Uw woning gaat open en komt afgewerkt terug. Wij breken uit, bouwen opnieuw op en werken af tot de laatste plint.
+38 | diensten.groepen[0].alt | Achtergevel in ruwbouw met stelling tijdens een volledige renovatie
+39 | diensten.groepen[0].onderdelen[0] | Uitbraak
+40 | diensten.groepen[0].onderdelen[1] | Ruwbouw
+41 | diensten.groepen[0].onderdelen[2] | Pleisterwerk
+42 | diensten.groepen[0].onderdelen[3] | Vloeren en tegels
+43 | diensten.groepen[0].onderdelen[4] | Afwerking
+44 | diensten.groepen[0].label | Woning
+45 | diensten.groepen[1].titel | Badkamers en keukens
+46 | diensten.groepen[1].tekst | Leidingen, tegelwerk, sanitair en het meubel. U krijgt de ruimte terug klaar voor gebruik.

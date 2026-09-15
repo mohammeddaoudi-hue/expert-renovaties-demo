@@ -1,0 +1,44 @@
+139 | realisaties.items[2].fotos[1].alt | Brede opname van dezelfde badkamer met de spiegelwand boven het meubel
+140 | realisaties.items[2].fotos[2].alt | Inbouwnissen in de tegelwand van de douche met bediening in brons
+141 | realisaties.items[2].fotos[3].alt | Zwarte handdoekradiator naast de tegelwand van de douche
+142 | realisaties.items[3].titel | Zolder
+143 | realisaties.items[3].fotos[0].alt | Afgewerkte kamer onder het dak met binnendeur en laminaat
+144 | realisaties.items[3].fotos[1].alt | Kamer onder het dak met dakvenster en gepleisterde schuine wand
+145 | realisaties.items[3].fotos[2].alt | Gang op de zolderverdieping met twee witte binnendeuren
+146 | realisaties.items[3].fotos[3].alt | Overloop met laminaat langs de gepleisterde borstwering
+147 | realisaties.items[3].fotos[4].alt | Borstwering langs de trapopening op de zolderverdieping
+148 | realisaties.items[4].titel | Dakkamer
+149 | realisaties.items[4].fotos[0].alt | Zolderkamer met zwarte balken, dakvenster en airco aan de wand
+150 | realisaties.items[4].fotos[1].alt | Afgewerkte zolderkamer met houten vloer onder het schuine dak
+151 | realisaties.items[5].titel | Keuken
+152 | realisaties.items[5].fotos[0].alt | Witte keuken met zwarte metrotegels en spots in het houten plafond
+153 | realisaties.items[5].fotos[1].alt | Werkblad van de keuken met kookplaat en dampkap tijdens de plaatsing
+154 | realisaties.items[6].titel | Achterbouw
+155 | realisaties.items[6].fotos[0].alt | Witte achterbouw met zwarte deuren en een terras in grote tegels
+156 | realisaties.items[6].fotos[1].alt | Achtergevel in ruwbouw met stelling tijdens de werken
+157 | realisaties.knop | Bekijk alle realisaties
+158 | reviews.kop_sterk | Wat klanten schrijven
+159 | reviews.kop_licht | Acht beoordelingen op Google, allemaal vijf sterren.
+160 | reviews.bron | Google
+161 | reviews.score | 5,0
+162 | reviews.vorige | Vorige review
+163 | reviews.volgende | Volgende review
+164 | reviews.foto_alt | Afgewerkte badkamer met inloopdouche achter glas
+165 | reviews.items[0].tekst | Heel tevreden over Kris zijn werk. Hij denkt echt mee en niets is te veel gevraagd. Alles vakkundig uitgevoerd, met eerlijke en transparante prijzen. Zeer betrouwbaar en aangenaam in de omgang. Een echte aanrader te regio Leuven en omstreken!
+166 | reviews.items[1].tekst | Kris denkt mee met zijn klant mee en adviseert zowel in aanloop als gedurende het project. Wensen vertaalt hij naar een technisch haalbare oplossing. Hij helpt kiezen voor de beste oplossing aan de scherpste prijs.
+167 | reviews.items[2].tekst | Wij zijn heel tevreden met het geleverde werk van deze firma, Kris is een zeer bekwaam vakman. Al wat hij gedaan heeft is perfect uitgevoerd en aan een correcte prijs. Het is een harde werker die zijn werk heel goed kent en hij is van zijn woord.
+168 | contact.kop | Contact
+169 | contact.adres_label | Adres
+170 | contact.tel_label | Telefoon
+171 | contact.mail_label | E-mail
+172 | contact.btw_label | Ondernemingsnummer
+173 | footer.zin | Badkamers, zolders, keukens en uitbouwen in Herent, Leuven en de gemeenten daarrond.
+174 | footer.kop_diensten | Onze diensten
+175 | footer.kop_bedrijf | Bedrijf
+176 | footer.kop_contact | Contact
+177 | footer.bedrijf[0].label | Over ons
+178 | footer.bedrijf[1].label | Werkwijze
+179 | footer.bedrijf[2].label | Realisaties
+180 | footer.bedrijf[3].label | Contact
+181 | footer.facebook | Facebook
+182 | footer.rechten | © 2026 Expert Renovaties BV

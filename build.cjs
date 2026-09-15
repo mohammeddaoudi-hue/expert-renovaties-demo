@@ -17,6 +17,8 @@ const VERSIE = require('crypto').createHash('md5')
 // zonder echte vertaling is erger dan geen taalkeuze.
 const TALEN = [
   { code: 'nl', label: 'NL', map: '', basis: '' },
+  { code: 'fr', label: 'FR', map: 'fr', basis: '../' },
+  { code: 'en', label: 'EN', map: 'en', basis: '../' },
 ];
 
 for (const taal of TALEN) {
@@ -76,7 +78,7 @@ const kopbalk = `
     <p class="er-top__stuk er-top__bel"><a href="tel:${esc(t.bel.tel)}"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>${esc(t.bel.nummer)}</a></p>
     <p class="er-top__stuk">${esc(t.top.adres)}</p>
     <p class="er-top__soc">
-      <a href="${esc(t.footer.instagram_url)}" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.9"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.1" fill="currentColor" stroke="none"/></svg></a>
+      ${t.footer.instagram_url ? `<a href="${esc(t.footer.instagram_url)}" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.9"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.1" fill="currentColor" stroke="none"/></svg></a>` : ''}
       <a href="${esc(t.footer.facebook_url)}" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v2H8v3h2v7h3v-7h3l1-3h-4v-2c0-.6.4-1 1-1z"/></svg></a>
     </p>
   </div>
@@ -327,7 +329,7 @@ const voet = `
       <img class="er-voet__logo" src="${basis}img/logo-licht.png" alt="Logo van ${esc(t.meta.naam)}" width="674" height="180">
       <p>${esc(t.footer.zin)}</p>
       <p class="er-voet__soc">
-        <a href="${esc(t.footer.instagram_url)}" target="_blank" rel="noopener noreferrer">${esc(t.footer.instagram)}</a>
+        ${t.footer.instagram ? `<a href="${esc(t.footer.instagram_url)}" target="_blank" rel="noopener noreferrer">${esc(t.footer.instagram)}</a>` : ''}
         <a class="er-voet__sociaal" href="${esc(t.footer.facebook_url)}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t.footer.facebook)}"><svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v2H8v3h2v7h3v-7h3l1-3h-4v-2c0-.6.4-1 1-1z"/></svg></a>
       </p>
     </div>

@@ -42,7 +42,10 @@ const VERBODEN = [
   { naam: '"of bel"', re: /\bof bel\b/i },
   { naam: 'in plaats van', re: /\bin plaats van\b/i },
   { naam: 'waar anderen', re: /\bwaar anderen\b|\bbij de meeste\b/i },
-  { naam: 'partner-taal', re: /\b(partner|hand in hand|samen bouwen)\b/i },
+  // Mohammed dicteerde op 16 sept 2026 zelf de hero-kop met het woord partner; die ene plek is
+  // daarom uitgezonderd via 'uit'. De rest van de pagina blijft vrij van partner-taal.
+  { naam: 'partner-taal', re: /(hand in hand|samen bouwen)/i },
+  { naam: 'partner-taal buiten de hero', re: /partner/i, uit: ['hero.kop'] },
   { naam: 'lege superlatief', re: /\b(professioneel|betrouwbaar|vakkundig|kwalitatief|optimaal|effectief|slim)\b/i, uit: ['reviews.items'] },
   { naam: 'werf', re: /\bwerf\b|\bwerven\b/i },
 ];
@@ -191,7 +194,7 @@ for (const [code, map] of [['fr', 'fr'], ['en', 'en']]) {
     if (!fs.existsSync(hp)) continue;
     const h = fs.readFileSync(hp, 'utf8');
     check('taalattribuut (' + code + ')', h.indexOf('<html lang="' + code + '"') >= 0, 'html lang klopt niet');
-    check('paden met voorvoegsel (' + code + ')', h.indexOf('href="../styles.css"') >= 0 && h.indexOf('"../img/') >= 0, 'bestandspaden missen ../');
+    check('paden met voorvoegsel (' + code + ')', h.indexOf('href="../styles.css?v=') >= 0 && h.indexOf('"../img/') >= 0, 'bestandspaden missen ../');
     check('noindex (' + code + ')', /name="robots" content="noindex/.test(h), 'noindex ontbreekt');
   }
 }

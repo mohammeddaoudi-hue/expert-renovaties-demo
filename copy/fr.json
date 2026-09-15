@@ -1,0 +1,517 @@
+{
+  "_werkblad": {
+    "lezer_en_pijn": "Huiseigenaar in Herent, Leuven of een gemeente daarrond met een badkamer, zolder, keuken of te kleine leefruimte die aan renovatie toe is. Hij vreest dat hij drie aannemers moet regelen voor één ruimte en dat de afwerking blijft liggen zodra de ruwbouw klaar is.",
+    "belofte": "Hij krijgt de ruimte terug zoals ze bedoeld was, afgewerkt en klaar voor gebruik, van dezelfde ploeg die ze heeft uitgebroken.",
+    "proces": "Iedereen toont een afgewerkte foto en zegt dat het kan. Wij bekijken eerst de ruimte, zeggen wat er technisch mogelijk is en voeren het dan zelf uit.",
+    "bewijs": "31 eigen werkfoto's uit zeven projecten, twee sleepbare voor-en-na's van dezelfde ruimte, 5,0 op Google met acht beoordelingen en drie reviews op naam, KBO-gegevens.",
+    "vorm_per_sectie": "hero uitkomst-eerst, feiten cijfers, over feit-eerst, diensten drie groepen, werkwijze proces, voor en na bewijs, waarom redenen uit de reviews, realisaties beeld, reviews stemmen, contact vraag"
+  },
+  "_aannames": [
+    "Bedrijfsgegevens komen uit de KBO (1018.081.910), hun Google-profiel, hun Facebook-pagina en hun eigen website expert-renovaties.be.",
+    "Alle foto's zijn hun eigen werkfoto's: 26 uit de mediabibliotheek van hun website (2020 en 2021) en 5 van hun Google-profiel. Er is geen stockfoto gebruikt.",
+    "De diensten volgen uit de NACE-codes in de KBO en uit wat op hun eigen foto's te zien is.",
+    "Het e-mailadres k-swistak@wp.pl staat publiek op hun Facebook-pagina.",
+    "Geen enkel cijfer is verzonnen: 5,0 en acht beoordelingen komen van Google, het ondernemingsnummer uit de KBO.",
+    "De twee voor-en-na-paren zijn op een parenblad gecontroleerd: het is dezelfde ruimte vanuit vrijwel dezelfde hoek.",
+    "De site spreekt in de wij-vorm, zoals het bedrijf zelf. Alleen in de reviews staat de derde persoon, want dat zijn de woorden van de klant.",
+    "De strook met materiaalmerken uit de Rai Bouw-demo staat hier niet: met welke merken dit bedrijf werkt is nergens terug te vinden, en verzonnen logo's zijn verzonnen feiten."
+  ],
+  "meta": {
+    "titel": "Expert Renovaties | Salles de bains, combles et extensions à Herent et Louvain",
+    "omschrijving": "Expert Renovaties rénove des salles de bains, des combles, des cuisines et des extensions à Herent, Louvain et les communes environnantes. Nous prenons les mesures, nous construisons et nous assurons la finition.",
+    "naam": "Expert Renovaties"
+  },
+  "top": {
+    "adres": "Kerkstraat 36, 3020 Herent",
+    "mail": "k-swistak@wp.pl",
+    "volg": "Suivez-nous"
+  },
+  "merk": {
+    "woord1": "EXPERT",
+    "woord2": "RENOVATIES",
+    "onder": "Salles de bains, combles et extensions"
+  },
+  "nav": [
+    {
+      "label": "À propos",
+      "naar": "#waarom"
+    },
+    {
+      "label": "Services",
+      "naar": "#diensten"
+    },
+    {
+      "label": "Notre méthode",
+      "naar": "#werkwijze"
+    },
+    {
+      "label": "Réalisations",
+      "naar": "#realisaties"
+    },
+    {
+      "label": "Contact",
+      "naar": "#contact"
+    }
+  ],
+  "bel": {
+    "label": "Appelez-nous",
+    "nummer": "+32 491 63 05 66",
+    "tel": "+32491630566"
+  },
+  "hero": {
+    "kop": "Votre partenaire pour la rénovation totale\nde A à Z",
+    "sub": "",
+    "knop1": "Demandez un devis",
+    "slides": [
+      {
+        "img": "zolderkamer-airco",
+        "alt": "Chambre sous combles terminée avec des poutres noires et une fenêtre de toit"
+      },
+      {
+        "img": "achterbouw-terras",
+        "alt": "Annexe arrière crépie avec une menuiserie extérieure noire et une terrasse"
+      },
+      {
+        "img": "uitbouw-tuinzijde",
+        "alt": "Extension terminée avec un bardage en bois et des châssis coulissants"
+      },
+      {
+        "img": "bad-af",
+        "alt": "Salle de bains avec une baignoire maçonnée devant la fenêtre et vue sur le jardin"
+      },
+      {
+        "img": "douche-overzicht",
+        "alt": "Salle de bains avec une douche à l'italienne derrière une vitre et un meuble suspendu"
+      }
+    ],
+    "vorige": "Photo précédente",
+    "volgende": "Photo suivante"
+  },
+  "feiten": [
+    {
+      "getal": "5,0",
+      "label": "Note Google"
+    },
+    {
+      "getal": "8",
+      "label": "Avis"
+    },
+    {
+      "getal": "Herent, Leuven en omstreken",
+      "label": "Zone d'intervention",
+      "breed": true
+    }
+  ],
+  "over": {
+    "kop_sterk": "Expert Renovaties, c'est Kris Swistak.",
+    "kop_licht": "Nous travaillons nous-mêmes sur le chantier et nous vous livrons l'espace entièrement fini.",
+    "tekst": "Ce que nous démolissons, nous le reconstruisons. Le plafonnage, les sols, le carrelage, le sanitaire et la menuiserie qui va avec font partie du même chantier.",
+    "knop": "Voir nos réalisations",
+    "fotos": [
+      {
+        "img": "bad-af",
+        "alt": "Salle de bains avec une baignoire maçonnée devant la fenêtre"
+      },
+      {
+        "img": "uitbouw-raam",
+        "alt": "Kris au travail sur une échelle près de la baie vitrée d'une extension"
+      },
+      {
+        "img": "keuken-overzicht",
+        "alt": "Cuisine blanche avec des carreaux métro noirs sous un plafond en bois"
+      },
+      {
+        "img": "zolder-kamer",
+        "alt": "Chambre sous combles terminée avec une porte intérieure et un sol stratifié"
+      }
+    ]
+  },
+  "diensten": {
+    "kop": "Nos services",
+    "tekst": "Les travaux que nous réalisons nous-mêmes dans les maisons et les appartements.",
+    "knop": "Demandez un devis",
+    "groepen": [
+      {
+        "id": "totaalrenovatie",
+        "titel": "Rénovation totale",
+        "tekst": "Nous ouvrons votre habitation et vous la retrouvez entièrement finie. Nous démolissons, nous reconstruisons et nous finissons jusqu'à la dernière plinthe.",
+        "img": "ruwbouw-stelling",
+        "alt": "Façade arrière en gros oeuvre avec un échafaudage pendant une rénovation complète",
+        "onderdelen": [
+          "Démolition",
+          "Gros oeuvre",
+          "Plafonnage",
+          "Sols et carrelages",
+          "Finitions"
+        ],
+        "label": "Maison"
+      },
+      {
+        "id": "badkamers",
+        "titel": "Salles de bains et cuisines",
+        "tekst": "Les conduites, le carrelage, le sanitaire et le meuble. Vous retrouvez la pièce prête à l'emploi.",
+        "img": "douche-overzicht",
+        "alt": "Salle de bains avec une douche à l'italienne derrière une paroi en verre et un meuble suspendu",
+        "onderdelen": [
+          "Conduites",
+          "Carrelage",
+          "Douche ou baignoire",
+          "Meuble",
+          "Placement de cuisine"
+        ],
+        "label": "Salle de bains"
+      },
+      {
+        "id": "uitbouw",
+        "titel": "Extension et isolation",
+        "tekst": "Une pièce supplémentaire accolée à votre habitation, ou des combles qui deviennent une chambre. Avec l'isolation, le bardage et la menuiserie extérieure.",
+        "img": "uitbouw-hoek",
+        "alt": "Extension avec un bardage en bois vertical et des profilés de châssis noirs",
+        "onderdelen": [
+          "Structure portante",
+          "Isolation",
+          "Bardage",
+          "Chambres sous combles",
+          "Climatisation et chauffage"
+        ],
+        "label": "Agrandissement"
+      }
+    ]
+  },
+  "werkwijze": {
+    "kop_sterk": "Comment se déroule votre rénovation",
+    "kop_licht": "Quatre étapes. Vous savez à l'avance ce qui se passe et quand.",
+    "foto": "uitbouw-raam",
+    "foto_alt": "Kris travaille sur une échelle près de la baie vitrée d'une extension",
+    "stappen": [
+      {
+        "nr": "01",
+        "titel": "Visite sur place",
+        "tekst": "Vous nous montrez l'espace et vous nous dites ce que vous voulez en faire. Nous prenons les mesures et nous vous disons ce qui est techniquement possible."
+      },
+      {
+        "nr": "02",
+        "titel": "Devis",
+        "tekst": "Détaillé poste par poste, matériaux compris, pour que vous voyiez ce que vous payez."
+      },
+      {
+        "nr": "03",
+        "titel": "Exécution",
+        "tekst": "La même équipe réalise le gros oeuvre et les finitions. Nous protégeons les accès et nous gardons le reste de votre habitation propre."
+      },
+      {
+        "nr": "04",
+        "titel": "Réception",
+        "tekst": "Vous parcourez l'espace avec nous et nous corrigeons ce que vous nous signalez."
+      }
+    ]
+  },
+  "voorna": {
+    "kop_sterk": "Le même espace, avant et après",
+    "kop_licht": "Faites glisser la barre sur la photo.",
+    "voor": "Avant",
+    "na": "Après",
+    "vorige": "Projet précédent",
+    "volgende": "Projet suivant",
+    "paren": [
+      {
+        "titel": "Salle de bains",
+        "voor": "bad-ruw",
+        "na": "bad-af",
+        "voor_alt": "Salle de bains pendant les travaux, avec la baignoire déjà maçonnée et les murs encore nus",
+        "na_alt": "La même salle de bains terminée, avec le carrelage, les douches de pluie et un sol en pierre naturelle"
+      },
+      {
+        "titel": "Extension",
+        "voor": "uitbouw-folie",
+        "na": "uitbouw-tuinzijde",
+        "voor_alt": "Extension sous pare-vapeur avec un échafaudage, avant la pose du bardage",
+        "na_alt": "La même extension avec le bardage en bois posé"
+      }
+    ]
+  },
+  "waarom": {
+    "kop_sterk": "Pourquoi Expert Renovaties",
+    "intro": "Une rénovation, c'est plus que démolir et reconstruire. Le travail se bloque sur les raccords. Le carreleur attend le plafonneur, la salle de bains est à l'arrêt parce que les conduites ne sont pas encore posées. Nous prenons en charge l'ensemble du chantier, avec nos propres équipes.",
+    "items": [
+      {
+        "nr": "01",
+        "titel": "Conseil à domicile",
+        "tekst": "Vous nous dites ce que vous voulez, nous vous disons ce qui est techniquement possible et ce que cela coûte. La visite sur place et le prix ne vous coûtent rien."
+      },
+      {
+        "nr": "02",
+        "titel": "Devis ferme",
+        "tekst": "Vous avez le prix par écrit avant le début des travaux, détaillé par poste. Tout supplément en cours de chantier, nous en parlons d'abord avec vous."
+      },
+      {
+        "nr": "03",
+        "titel": "Coordination fluide",
+        "tekst": "Nous réalisons chaque poste nous-mêmes. Votre rénovation avance donc plus vite."
+      }
+    ],
+    "knop": "Voir nos réalisations",
+    "fotos": [
+      {
+        "img": "uitbouw-stelling",
+        "alt": "Extension avec un échafaudage pendant la pose du bardage"
+      },
+      {
+        "img": "douche-nissen",
+        "alt": "Niches encastrées dans le mur carrelé d'une douche à l'italienne"
+      }
+    ]
+  },
+  "cta": {
+    "kop_sterk": "Parler de votre projet ?",
+    "tekst": "Dites-nous ce que vous voulez faire réaliser. Nous passons chez vous, nous prenons les mesures et nous vous remettons un prix par poste.",
+    "knop": "Appelez le +32 491 63 05 66",
+    "foto": "achterbouw-terras",
+    "foto_alt": "Annexe arrière crépie avec une menuiserie extérieure noire et une terrasse en grandes dalles",
+    "formulier": {
+      "kop": "Demandez un devis",
+      "naam": "Naam",
+      "naam_p": "Votre nom",
+      "mail": "E-mail",
+      "mail_p": "votre@email.be",
+      "tel": "Telefoon",
+      "tel_p": "04xx xx xx xx",
+      "soort": "Type de travaux",
+      "soort_opties": [
+        "Choisissez un type de travaux",
+        "Salle de bains",
+        "Cuisine",
+        "Grenier ou chambre sous combles",
+        "Extension ou annexe",
+        "Rénovation totale",
+        "Sols et carrelages",
+        "Plafonnage",
+        "Climatisation ou chauffage",
+        "Autre chose"
+      ],
+      "bericht": "Message",
+      "bericht_p": "Dites-nous en quelques mots ce que vous voulez faire réaliser",
+      "knop": "Envoyer",
+      "bedankt": "Merci. Ceci est un site de démonstration, votre message n'est pas envoyé."
+    }
+  },
+  "realisaties": {
+    "kop_sterk": "Réalisations",
+    "kop_licht": "Un aperçu de nos chantiers.",
+    "meer": "photos",
+    "items": [
+      {
+        "titel": "Extension",
+        "slug": "uitbouw",
+        "fotos": [
+          {
+            "img": "uitbouw-hoek",
+            "alt": "Extension terminée avec un bardage en bois et une grande baie vitrée"
+          },
+          {
+            "img": "uitbouw-tuinzijde",
+            "alt": "Extension vue du jardin, avec des châssis coulissants sur toute la largeur"
+          },
+          {
+            "img": "uitbouw-schuifraam",
+            "alt": "Extension avec un châssis coulissant et une façade en bois contre une habitation blanche"
+          },
+          {
+            "img": "uitbouw-avond",
+            "alt": "Extension dans la lumière du soir, la façade en bois entièrement fermée"
+          },
+          {
+            "img": "uitbouw-zijkant",
+            "alt": "Façade latérale en bois de l'extension contre la maçonnerie rouge de l'habitation"
+          }
+        ]
+      },
+      {
+        "titel": "Salle de bains",
+        "slug": "bad",
+        "fotos": [
+          {
+            "img": "bad-af",
+            "alt": "Salle de bains terminée avec une baignoire maçonnée devant la fenêtre et un sol en pierre naturelle"
+          },
+          {
+            "img": "bad-zicht",
+            "alt": "Salle de bains avec deux douches de pluie et vue sur le jardin par la fenêtre"
+          },
+          {
+            "img": "bad-ruw",
+            "alt": "La même salle de bains pendant les travaux, avec la baignoire déjà maçonnée"
+          }
+        ]
+      },
+      {
+        "titel": "Douche à l'italienne",
+        "slug": "douche",
+        "fotos": [
+          {
+            "img": "douche-overzicht",
+            "alt": "Salle de bains avec une douche à l'italienne derrière une vitre et un meuble suspendu en bois"
+          },
+          {
+            "img": "douche-breed",
+            "alt": "Vue d'ensemble de la même salle de bains avec le mur de miroirs au-dessus du meuble"
+          },
+          {
+            "img": "douche-nissen",
+            "alt": "Niches encastrées dans le mur carrelé de la douche, avec une robinetterie en bronze"
+          },
+          {
+            "img": "douche-radiator",
+            "alt": "Radiateur sèche-serviettes noir à côté du mur carrelé de la douche"
+          }
+        ]
+      },
+      {
+        "titel": "Combles",
+        "slug": "zolder",
+        "fotos": [
+          {
+            "img": "zolder-kamer",
+            "alt": "Chambre sous combles terminée avec une porte intérieure et un sol stratifié"
+          },
+          {
+            "img": "zolder-dakvenster",
+            "alt": "Chambre sous combles avec une fenêtre de toit et une paroi inclinée plafonnée"
+          },
+          {
+            "img": "zolder-gang",
+            "alt": "Couloir à l'étage des combles avec deux portes intérieures blanches"
+          },
+          {
+            "img": "zolder-overloop",
+            "alt": "Palier avec un sol stratifié le long du garde-corps plafonné"
+          },
+          {
+            "img": "zolder-balustrade",
+            "alt": "Garde-corps le long de la trémie d'escalier à l'étage des combles"
+          }
+        ]
+      },
+      {
+        "titel": "Chambre sous combles",
+        "slug": "zolderkamer",
+        "fotos": [
+          {
+            "img": "zolderkamer-airco",
+            "alt": "Chambre sous combles avec des poutres noires, une fenêtre de toit et un climatiseur au mur"
+          },
+          {
+            "img": "zolderkamer-vloer",
+            "alt": "Chambre sous combles terminée avec un plancher en bois sous la pente du toit"
+          }
+        ]
+      },
+      {
+        "titel": "Cuisine",
+        "slug": "keuken",
+        "fotos": [
+          {
+            "img": "keuken-overzicht",
+            "alt": "Cuisine blanche avec des carreaux métro noirs et des spots dans le plafond en bois"
+          },
+          {
+            "img": "keuken-werkblad",
+            "alt": "Plan de travail de la cuisine avec la taque de cuisson et la hotte pendant le placement"
+          }
+        ]
+      },
+      {
+        "titel": "Annexe arrière",
+        "slug": "achterbouw",
+        "fotos": [
+          {
+            "img": "achterbouw-terras",
+            "alt": "Annexe arrière blanche avec des portes noires et une terrasse en grandes dalles"
+          },
+          {
+            "img": "ruwbouw-stelling",
+            "alt": "Façade arrière en gros oeuvre avec un échafaudage pendant les travaux"
+          }
+        ]
+      }
+    ],
+    "knop": "Voir toutes les réalisations"
+  },
+  "reviews": {
+    "kop_sterk": "Ce que les clients écrivent",
+    "kop_licht": "Huit avis sur Google, tous cinq étoiles.",
+    "bron": "Google",
+    "score": "5,0",
+    "vorige": "Avis précédent",
+    "volgende": "Avis suivant",
+    "foto": "bad-zicht",
+    "foto_alt": "Salle de bains terminée avec deux douches de pluie et vue sur le jardin",
+    "items": [
+      {
+        "naam": "Anton Swillens",
+        "wanneer": "10 maanden geleden",
+        "sterren": 5,
+        "tekst": "Très content du travail de Kris. Il réfléchit vraiment avec vous et rien n'est jamais trop demandé. Tout a été exécuté de façon professionnelle, à des prix honnêtes et transparents. Très fiable et agréable dans le contact. Vraiment à recommander dans la région de Louvain et ses environs !"
+      },
+      {
+        "naam": "Marc Herman",
+        "wanneer": "2 jaar geleden",
+        "sterren": 5,
+        "tekst": "Kris réfléchit avec son client et le conseille aussi bien avant le projet que pendant celui-ci. Il traduit les souhaits en une solution techniquement réalisable. Il aide à choisir la meilleure solution au prix le plus serré."
+      },
+      {
+        "naam": "Marianne Herssens",
+        "wanneer": "4 jaar geleden",
+        "sterren": 5,
+        "tekst": "Nous sommes très satisfaits du travail livré par cette firme, Kris est un homme de métier très compétent. Tout ce qu'il a fait est parfaitement exécuté et à un prix correct. C'est un travailleur acharné qui connaît très bien son métier et il tient parole."
+      }
+    ]
+  },
+  "contact": {
+    "kop": "Contact",
+    "adres_label": "Adresse",
+    "adres": "Kerkstraat 36<br>3020 Herent",
+    "tel_label": "Téléphone",
+    "tel1": "+32 491 63 05 66",
+    "tel1_url": "+32491630566",
+    "tel2": "",
+    "tel2_url": "",
+    "mail_label": "E-mail",
+    "mail": "k-swistak@wp.pl",
+    "btw_label": "Numéro d'entreprise",
+    "btw": "BE 1018.081.910"
+  },
+  "footer": {
+    "zin": "Salles de bains, combles, cuisines et extensions à Herent, Louvain et les communes environnantes.",
+    "kop_diensten": "Nos services",
+    "kop_bedrijf": "Entreprise",
+    "kop_contact": "Contact",
+    "bedrijf": [
+      {
+        "label": "À propos",
+        "naar": "#waarom"
+      },
+      {
+        "label": "Notre méthode",
+        "naar": "#werkwijze"
+      },
+      {
+        "label": "Réalisations",
+        "naar": "#realisaties"
+      },
+      {
+        "label": "Contact",
+        "naar": "#contact"
+      }
+    ],
+    "instagram": "",
+    "instagram_url": "",
+    "facebook": "Facebook",
+    "facebook_url": "https://www.facebook.com/Kris.Expert/",
+    "rechten": "© 2026 Expert Renovaties BV"
+  },
+  "merken": {
+    "kop": "",
+    "items": []
+  }
+}

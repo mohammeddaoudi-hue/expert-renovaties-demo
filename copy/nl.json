@@ -33,7 +33,7 @@
   },
   "nav": [
     {
-      "label": "Waarom",
+      "label": "Over ons",
       "naar": "#waarom"
     },
     {
@@ -59,7 +59,7 @@
     "tel": "+32491630566"
   },
   "hero": {
-    "kop": "De ruimte die u wil,\ngebouwd en afgewerkt",
+    "kop": "Uw partner voor totaalrenovatie\nvan a tot z",
     "sub": "",
     "knop1": "Vraag een offerte aan",
     "slides": [
@@ -232,7 +232,7 @@
   },
   "waarom": {
     "kop_sterk": "Waarom Expert Renovaties",
-    "intro": "Een renovatie is meer dan uitbreken en opnieuw opbouwen. Het werk loopt vast op de aansluitingen. De tegelzetter wacht op de pleisteraar, de badkamer staat stil omdat de leidingen nog niet liggen. Wij nemen de ruwbouw en de afwerking samen aan, met dezelfde ploeg.",
+    "intro": "Een renovatie is meer dan uitbreken en opnieuw opbouwen. Het werk loopt vast op de aansluitingen. De tegelzetter wacht op de pleisteraar, de badkamer staat stil omdat de leidingen nog niet liggen. Wij nemen het volledige traject op ons, met onze eigen ploegen.",
     "items": [
       {
         "nr": "01",
@@ -241,13 +241,13 @@
       },
       {
         "nr": "02",
-        "titel": "Prijs per onderdeel",
+        "titel": "Bindende offerte",
         "tekst": "De prijs staat op papier voor het werk begint, opgesplitst per post. Wat er tijdens de werken bijkomt, bespreken wij eerst."
       },
       {
         "nr": "03",
-        "titel": "Afwerking inbegrepen",
-        "tekst": "Pleisterwerk, tegels, sanitair en de plinten horen bij dezelfde opdracht. Dezelfde mensen die uitbreken, werken ook af."
+        "titel": "Vlotte coördinatie",
+        "tekst": "Wij voeren elk onderdeel zelf uit. Dat zorgt voor een vlottere uitvoering van uw verbouwing."
       }
     ],
     "knop": "Bekijk ons werk",
@@ -444,8 +444,8 @@
     "score": "5,0",
     "vorige": "Vorige review",
     "volgende": "Volgende review",
-    "foto": "douche-breed",
-    "foto_alt": "Afgewerkte badkamer met inloopdouche achter glas",
+    "foto": "bad-zicht",
+    "foto_alt": "Afgewerkte badkamer met twee regendouches en zicht op de tuin",
     "items": [
       {
         "naam": "Anton Swillens",
@@ -488,7 +488,7 @@
     "kop_contact": "Contact",
     "bedrijf": [
       {
-        "label": "Waarom Expert Renovaties",
+        "label": "Over ons",
         "naar": "#waarom"
       },
       {

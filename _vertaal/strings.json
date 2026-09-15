@@ -1,0 +1,912 @@
+[
+ {
+  "n": 1,
+  "pad": "meta.titel",
+  "tekst": "Expert Renovaties | Badkamers, zolders en uitbouwen in Herent en Leuven"
+ },
+ {
+  "n": 2,
+  "pad": "meta.omschrijving",
+  "tekst": "Expert Renovaties verbouwt badkamers, zolders, keukens en uitbouwen in Herent, Leuven en de gemeenten daarrond. Wij meten op, bouwen op en werken af."
+ },
+ {
+  "n": 3,
+  "pad": "top.volg",
+  "tekst": "Volg ons"
+ },
+ {
+  "n": 4,
+  "pad": "merk.woord1",
+  "tekst": "EXPERT"
+ },
+ {
+  "n": 5,
+  "pad": "merk.woord2",
+  "tekst": "RENOVATIES"
+ },
+ {
+  "n": 6,
+  "pad": "merk.onder",
+  "tekst": "Badkamers, zolders en uitbouwen"
+ },
+ {
+  "n": 7,
+  "pad": "nav[0].label",
+  "tekst": "Over ons"
+ },
+ {
+  "n": 8,
+  "pad": "nav[1].label",
+  "tekst": "Diensten"
+ },
+ {
+  "n": 9,
+  "pad": "nav[2].label",
+  "tekst": "Werkwijze"
+ },
+ {
+  "n": 10,
+  "pad": "nav[3].label",
+  "tekst": "Realisaties"
+ },
+ {
+  "n": 11,
+  "pad": "nav[4].label",
+  "tekst": "Contact"
+ },
+ {
+  "n": 12,
+  "pad": "bel.label",
+  "tekst": "Bel ons"
+ },
+ {
+  "n": 13,
+  "pad": "hero.kop",
+  "tekst": "De ruimte die u wil,\ngebouwd en afgewerkt"
+ },
+ {
+  "n": 14,
+  "pad": "hero.knop1",
+  "tekst": "Vraag een offerte aan"
+ },
+ {
+  "n": 15,
+  "pad": "hero.slides[0].alt",
+  "tekst": "Afgewerkte zolderkamer met zwarte balken en een dakvenster"
+ },
+ {
+  "n": 16,
+  "pad": "hero.slides[1].alt",
+  "tekst": "Gepleisterde achterbouw met zwart buitenschrijnwerk en een terras"
+ },
+ {
+  "n": 17,
+  "pad": "hero.slides[2].alt",
+  "tekst": "Afgewerkte uitbouw met houten gevelbekleding en schuiframen"
+ },
+ {
+  "n": 18,
+  "pad": "hero.slides[3].alt",
+  "tekst": "Badkamer met een bad ingemetseld voor het raam en zicht op de tuin"
+ },
+ {
+  "n": 19,
+  "pad": "hero.slides[4].alt",
+  "tekst": "Badkamer met inloopdouche achter glas en een zwevend meubel"
+ },
+ {
+  "n": 20,
+  "pad": "hero.vorige",
+  "tekst": "Vorige foto"
+ },
+ {
+  "n": 21,
+  "pad": "hero.volgende",
+  "tekst": "Volgende foto"
+ },
+ {
+  "n": 22,
+  "pad": "feiten[0].label",
+  "tekst": "Score op Google"
+ },
+ {
+  "n": 23,
+  "pad": "feiten[1].label",
+  "tekst": "Beoordelingen"
+ },
+ {
+  "n": 24,
+  "pad": "feiten[2].label",
+  "tekst": "Werkgebied"
+ },
+ {
+  "n": 25,
+  "pad": "over.kop_sterk",
+  "tekst": "Achter Expert Renovaties staat Kris Swistak."
+ },
+ {
+  "n": 26,
+  "pad": "over.kop_licht",
+  "tekst": "Wij staan zelf mee op de werken en leveren de ruimte afgewerkt op."
+ },
+ {
+  "n": 27,
+  "pad": "over.tekst",
+  "tekst": "Wat wij uitbreken, bouwen wij opnieuw op. Pleisterwerk, vloeren, tegelwerk, sanitair en het schrijnwerk errond horen bij dezelfde opdracht."
+ },
+ {
+  "n": 28,
+  "pad": "over.knop",
+  "tekst": "Bekijk ons werk"
+ },
+ {
+  "n": 29,
+  "pad": "over.fotos[0].alt",
+  "tekst": "Badkamer met een bad ingemetseld voor het raam"
+ },
+ {
+  "n": 30,
+  "pad": "over.fotos[1].alt",
+  "tekst": "Kris aan het werk op een ladder bij de raampartij van een uitbouw"
+ },
+ {
+  "n": 31,
+  "pad": "over.fotos[2].alt",
+  "tekst": "Witte keuken met zwarte metrotegels onder een houten plafond"
+ },
+ {
+  "n": 32,
+  "pad": "over.fotos[3].alt",
+  "tekst": "Afgewerkte kamer onder het dak met een binnendeur en laminaat"
+ },
+ {
+  "n": 33,
+  "pad": "diensten.kop",
+  "tekst": "Onze diensten"
+ },
+ {
+  "n": 34,
+  "pad": "diensten.tekst",
+  "tekst": "Het werk dat wij zelf uitvoeren in woningen en appartementen."
+ },
+ {
+  "n": 35,
+  "pad": "diensten.knop",
+  "tekst": "Vraag een offerte aan"
+ },
+ {
+  "n": 36,
+  "pad": "diensten.groepen[0].titel",
+  "tekst": "Totaalrenovatie"
+ },
+ {
+  "n": 37,
+  "pad": "diensten.groepen[0].tekst",
+  "tekst": "Uw woning gaat open en komt afgewerkt terug. Wij breken uit, bouwen opnieuw op en werken af tot de laatste plint."
+ },
+ {
+  "n": 38,
+  "pad": "diensten.groepen[0].alt",
+  "tekst": "Achtergevel in ruwbouw met stelling tijdens een volledige renovatie"
+ },
+ {
+  "n": 39,
+  "pad": "diensten.groepen[0].onderdelen[0]",
+  "tekst": "Uitbraak"
+ },
+ {
+  "n": 40,
+  "pad": "diensten.groepen[0].onderdelen[1]",
+  "tekst": "Ruwbouw"
+ },
+ {
+  "n": 41,
+  "pad": "diensten.groepen[0].onderdelen[2]",
+  "tekst": "Pleisterwerk"
+ },
+ {
+  "n": 42,
+  "pad": "diensten.groepen[0].onderdelen[3]",
+  "tekst": "Vloeren en tegels"
+ },
+ {
+  "n": 43,
+  "pad": "diensten.groepen[0].onderdelen[4]",
+  "tekst": "Afwerking"
+ },
+ {
+  "n": 44,
+  "pad": "diensten.groepen[0].label",
+  "tekst": "Woning"
+ },
+ {
+  "n": 45,
+  "pad": "diensten.groepen[1].titel",
+  "tekst": "Badkamers en keukens"
+ },
+ {
+  "n": 46,
+  "pad": "diensten.groepen[1].tekst",
+  "tekst": "Leidingen, tegelwerk, sanitair en het meubel. U krijgt de ruimte terug klaar voor gebruik."
+ },
+ {
+  "n": 47,
+  "pad": "diensten.groepen[1].alt",
+  "tekst": "Badkamer met inloopdouche achter een glazen wand en een zwevend meubel"
+ },
+ {
+  "n": 48,
+  "pad": "diensten.groepen[1].onderdelen[0]",
+  "tekst": "Leidingen"
+ },
+ {
+  "n": 49,
+  "pad": "diensten.groepen[1].onderdelen[1]",
+  "tekst": "Tegelwerk"
+ },
+ {
+  "n": 50,
+  "pad": "diensten.groepen[1].onderdelen[2]",
+  "tekst": "Douche of bad"
+ },
+ {
+  "n": 51,
+  "pad": "diensten.groepen[1].onderdelen[3]",
+  "tekst": "Meubel"
+ },
+ {
+  "n": 52,
+  "pad": "diensten.groepen[1].onderdelen[4]",
+  "tekst": "Keuken plaatsen"
+ },
+ {
+  "n": 53,
+  "pad": "diensten.groepen[1].label",
+  "tekst": "Badkamer"
+ },
+ {
+  "n": 54,
+  "pad": "diensten.groepen[2].titel",
+  "tekst": "Uitbouw en isolatie"
+ },
+ {
+  "n": 55,
+  "pad": "diensten.groepen[2].tekst",
+  "tekst": "Een extra ruimte tegen uw woning, of een zolder die een kamer wordt. Met isolatie, gevelbekleding en groot schrijnwerk."
+ },
+ {
+  "n": 56,
+  "pad": "diensten.groepen[2].alt",
+  "tekst": "Uitbouw met verticale houten gevelbekleding en zwarte raamprofielen"
+ },
+ {
+  "n": 57,
+  "pad": "diensten.groepen[2].onderdelen[0]",
+  "tekst": "Draagstructuur"
+ },
+ {
+  "n": 58,
+  "pad": "diensten.groepen[2].onderdelen[1]",
+  "tekst": "Isolatie"
+ },
+ {
+  "n": 59,
+  "pad": "diensten.groepen[2].onderdelen[2]",
+  "tekst": "Gevelbekleding"
+ },
+ {
+  "n": 60,
+  "pad": "diensten.groepen[2].onderdelen[3]",
+  "tekst": "Dakkamers"
+ },
+ {
+  "n": 61,
+  "pad": "diensten.groepen[2].onderdelen[4]",
+  "tekst": "Airco en verwarming"
+ },
+ {
+  "n": 62,
+  "pad": "diensten.groepen[2].label",
+  "tekst": "Uitbreiden"
+ },
+ {
+  "n": 63,
+  "pad": "werkwijze.kop_sterk",
+  "tekst": "Zo verloopt uw verbouwing"
+ },
+ {
+  "n": 64,
+  "pad": "werkwijze.kop_licht",
+  "tekst": "Vier stappen. U weet vooraf wat er gebeurt en wanneer."
+ },
+ {
+  "n": 65,
+  "pad": "werkwijze.foto_alt",
+  "tekst": "Kris werkt op een ladder aan de raampartij van een uitbouw"
+ },
+ {
+  "n": 66,
+  "pad": "werkwijze.stappen[0].titel",
+  "tekst": "Plaatsbezoek"
+ },
+ {
+  "n": 67,
+  "pad": "werkwijze.stappen[0].tekst",
+  "tekst": "U toont de ruimte en zegt wat u ermee wil. Wij meten op en zeggen wat er technisch mogelijk is."
+ },
+ {
+  "n": 68,
+  "pad": "werkwijze.stappen[1].titel",
+  "tekst": "Offerte"
+ },
+ {
+  "n": 69,
+  "pad": "werkwijze.stappen[1].tekst",
+  "tekst": "Opgesplitst per onderdeel, met de materialen erbij, zodat u ziet waarvoor u betaalt."
+ },
+ {
+  "n": 70,
+  "pad": "werkwijze.stappen[2].titel",
+  "tekst": "Uitvoering"
+ },
+ {
+  "n": 71,
+  "pad": "werkwijze.stappen[2].tekst",
+  "tekst": "Dezelfde ploeg doet de ruwbouw en de afwerking. Wij schermen af en houden de rest van uw woning proper."
+ },
+ {
+  "n": 72,
+  "pad": "werkwijze.stappen[3].titel",
+  "tekst": "Oplevering"
+ },
+ {
+  "n": 73,
+  "pad": "werkwijze.stappen[3].tekst",
+  "tekst": "U loopt de ruimte na met ons en wij zetten recht wat u aanwijst."
+ },
+ {
+  "n": 74,
+  "pad": "voorna.kop_sterk",
+  "tekst": "Dezelfde ruimte, voor en na"
+ },
+ {
+  "n": 75,
+  "pad": "voorna.kop_licht",
+  "tekst": "Sleep de balk over de foto."
+ },
+ {
+  "n": 76,
+  "pad": "voorna.voor",
+  "tekst": "Voor"
+ },
+ {
+  "n": 77,
+  "pad": "voorna.na",
+  "tekst": "Na"
+ },
+ {
+  "n": 78,
+  "pad": "voorna.vorige",
+  "tekst": "Vorig project"
+ },
+ {
+  "n": 79,
+  "pad": "voorna.volgende",
+  "tekst": "Volgend project"
+ },
+ {
+  "n": 80,
+  "pad": "voorna.paren[0].titel",
+  "tekst": "Badkamer"
+ },
+ {
+  "n": 81,
+  "pad": "voorna.paren[0].voor",
+  "tekst": "bad-ruw"
+ },
+ {
+  "n": 82,
+  "pad": "voorna.paren[0].na",
+  "tekst": "bad-af"
+ },
+ {
+  "n": 83,
+  "pad": "voorna.paren[0].voor_alt",
+  "tekst": "Badkamer tijdens de werken, met het bad al ingemetseld en de wanden nog kaal"
+ },
+ {
+  "n": 84,
+  "pad": "voorna.paren[0].na_alt",
+  "tekst": "Dezelfde badkamer afgewerkt, met tegelwerk, regendouches en een natuurstenen vloer"
+ },
+ {
+  "n": 85,
+  "pad": "voorna.paren[1].titel",
+  "tekst": "Uitbouw"
+ },
+ {
+  "n": 86,
+  "pad": "voorna.paren[1].voor",
+  "tekst": "uitbouw-folie"
+ },
+ {
+  "n": 87,
+  "pad": "voorna.paren[1].na",
+  "tekst": "uitbouw-tuinzijde"
+ },
+ {
+  "n": 88,
+  "pad": "voorna.paren[1].voor_alt",
+  "tekst": "Uitbouw in dampscherm met stelling, voor de gevelbekleding"
+ },
+ {
+  "n": 89,
+  "pad": "voorna.paren[1].na_alt",
+  "tekst": "Dezelfde uitbouw met de houten gevelbekleding geplaatst"
+ },
+ {
+  "n": 90,
+  "pad": "waarom.kop_sterk",
+  "tekst": "Waarom Expert Renovaties"
+ },
+ {
+  "n": 91,
+  "pad": "waarom.intro",
+  "tekst": "Een renovatie is meer dan uitbreken en opnieuw opbouwen. Het werk loopt vast op de aansluitingen. De tegelzetter wacht op de pleisteraar, de badkamer staat stil omdat de leidingen nog niet liggen. Wij nemen de ruwbouw en de afwerking samen aan, met dezelfde ploeg."
+ },
+ {
+  "n": 92,
+  "pad": "waarom.items[0].titel",
+  "tekst": "Advies aan huis"
+ },
+ {
+  "n": 93,
+  "pad": "waarom.items[0].tekst",
+  "tekst": "U zegt wat u wil, wij zeggen wat er technisch kan en wat het kost. Het plaatsbezoek en de prijs kosten u niets."
+ },
+ {
+  "n": 94,
+  "pad": "waarom.items[1].titel",
+  "tekst": "Bindende offerte"
+ },
+ {
+  "n": 95,
+  "pad": "waarom.items[1].tekst",
+  "tekst": "De prijs staat op papier voor het werk begint, opgesplitst per post. Wat er tijdens de werken bijkomt, bespreken wij eerst."
+ },
+ {
+  "n": 96,
+  "pad": "waarom.items[2].titel",
+  "tekst": "Afwerking inbegrepen"
+ },
+ {
+  "n": 97,
+  "pad": "waarom.items[2].tekst",
+  "tekst": "Pleisterwerk, tegels, sanitair en de plinten horen bij dezelfde opdracht. Dezelfde mensen die uitbreken, werken ook af."
+ },
+ {
+  "n": 98,
+  "pad": "waarom.knop",
+  "tekst": "Bekijk ons werk"
+ },
+ {
+  "n": 99,
+  "pad": "waarom.fotos[0].alt",
+  "tekst": "Uitbouw met stelling tijdens de plaatsing van de gevelbekleding"
+ },
+ {
+  "n": 100,
+  "pad": "waarom.fotos[1].alt",
+  "tekst": "Inbouwnissen in de tegelwand van een inloopdouche"
+ },
+ {
+  "n": 101,
+  "pad": "cta.kop_sterk",
+  "tekst": "Uw project bespreken?"
+ },
+ {
+  "n": 102,
+  "pad": "cta.tekst",
+  "tekst": "Laat weten wat u wil laten doen. Wij komen langs, meten op en bezorgen u een prijs per onderdeel."
+ },
+ {
+  "n": 103,
+  "pad": "cta.knop",
+  "tekst": "Bel +32 491 63 05 66"
+ },
+ {
+  "n": 104,
+  "pad": "cta.foto_alt",
+  "tekst": "Gepleisterde achterbouw met zwart buitenschrijnwerk en een terras in grote tegels"
+ },
+ {
+  "n": 105,
+  "pad": "cta.formulier.kop",
+  "tekst": "Vraag een offerte aan"
+ },
+ {
+  "n": 106,
+  "pad": "cta.formulier.naam_p",
+  "tekst": "Uw naam"
+ },
+ {
+  "n": 107,
+  "pad": "cta.formulier.mail_p",
+  "tekst": "uw@email.be"
+ },
+ {
+  "n": 108,
+  "pad": "cta.formulier.tel_p",
+  "tekst": "04xx xx xx xx"
+ },
+ {
+  "n": 109,
+  "pad": "cta.formulier.soort",
+  "tekst": "Soort werk"
+ },
+ {
+  "n": 110,
+  "pad": "cta.formulier.soort_opties[0]",
+  "tekst": "Kies een soort werk"
+ },
+ {
+  "n": 111,
+  "pad": "cta.formulier.soort_opties[1]",
+  "tekst": "Badkamer"
+ },
+ {
+  "n": 112,
+  "pad": "cta.formulier.soort_opties[2]",
+  "tekst": "Keuken"
+ },
+ {
+  "n": 113,
+  "pad": "cta.formulier.soort_opties[3]",
+  "tekst": "Zolder of dakkamer"
+ },
+ {
+  "n": 114,
+  "pad": "cta.formulier.soort_opties[4]",
+  "tekst": "Uitbouw of aanbouw"
+ },
+ {
+  "n": 115,
+  "pad": "cta.formulier.soort_opties[5]",
+  "tekst": "Totaalrenovatie"
+ },
+ {
+  "n": 116,
+  "pad": "cta.formulier.soort_opties[6]",
+  "tekst": "Vloeren en tegels"
+ },
+ {
+  "n": 117,
+  "pad": "cta.formulier.soort_opties[7]",
+  "tekst": "Pleisterwerk"
+ },
+ {
+  "n": 118,
+  "pad": "cta.formulier.soort_opties[8]",
+  "tekst": "Airco of verwarming"
+ },
+ {
+  "n": 119,
+  "pad": "cta.formulier.soort_opties[9]",
+  "tekst": "Iets anders"
+ },
+ {
+  "n": 120,
+  "pad": "cta.formulier.bericht",
+  "tekst": "Bericht"
+ },
+ {
+  "n": 121,
+  "pad": "cta.formulier.bericht_p",
+  "tekst": "Vertel kort wat u wil laten doen"
+ },
+ {
+  "n": 122,
+  "pad": "cta.formulier.knop",
+  "tekst": "Versturen"
+ },
+ {
+  "n": 123,
+  "pad": "cta.formulier.bedankt",
+  "tekst": "Bedankt. Dit is een voorbeeldsite, uw bericht wordt niet verstuurd."
+ },
+ {
+  "n": 124,
+  "pad": "realisaties.kop_sterk",
+  "tekst": "Realisaties"
+ },
+ {
+  "n": 125,
+  "pad": "realisaties.kop_licht",
+  "tekst": "Een greep uit ons werk."
+ },
+ {
+  "n": 126,
+  "pad": "realisaties.meer",
+  "tekst": "foto's"
+ },
+ {
+  "n": 127,
+  "pad": "realisaties.items[0].titel",
+  "tekst": "Uitbouw"
+ },
+ {
+  "n": 128,
+  "pad": "realisaties.items[0].fotos[0].alt",
+  "tekst": "Afgewerkte uitbouw met houten gevelbekleding en grote raampartij"
+ },
+ {
+  "n": 129,
+  "pad": "realisaties.items[0].fotos[1].alt",
+  "tekst": "Uitbouw vanuit de tuin met schuiframen over de volle breedte"
+ },
+ {
+  "n": 130,
+  "pad": "realisaties.items[0].fotos[2].alt",
+  "tekst": "Uitbouw met schuifraam en houten gevel tegen een witte woning"
+ },
+ {
+  "n": 131,
+  "pad": "realisaties.items[0].fotos[3].alt",
+  "tekst": "Uitbouw in het avondlicht met de houten gevel volledig gesloten"
+ },
+ {
+  "n": 132,
+  "pad": "realisaties.items[0].fotos[4].alt",
+  "tekst": "Zijgevel van de uitbouw in hout tegen het rode metselwerk van de woning"
+ },
+ {
+  "n": 133,
+  "pad": "realisaties.items[1].titel",
+  "tekst": "Badkamer"
+ },
+ {
+  "n": 134,
+  "pad": "realisaties.items[1].fotos[0].alt",
+  "tekst": "Afgewerkte badkamer met ingemetseld bad voor het raam en een natuurstenen vloer"
+ },
+ {
+  "n": 135,
+  "pad": "realisaties.items[1].fotos[1].alt",
+  "tekst": "Badkamer met twee regendouches en zicht op de tuin door het raam"
+ },
+ {
+  "n": 136,
+  "pad": "realisaties.items[1].fotos[2].alt",
+  "tekst": "Dezelfde badkamer tijdens de werken, met het bad al ingemetseld"
+ },
+ {
+  "n": 137,
+  "pad": "realisaties.items[2].titel",
+  "tekst": "Inloopdouche"
+ },
+ {
+  "n": 138,
+  "pad": "realisaties.items[2].fotos[0].alt",
+  "tekst": "Badkamer met inloopdouche achter glas en een houten zwevend meubel"
+ },
+ {
+  "n": 139,
+  "pad": "realisaties.items[2].fotos[1].alt",
+  "tekst": "Brede opname van dezelfde badkamer met de spiegelwand boven het meubel"
+ },
+ {
+  "n": 140,
+  "pad": "realisaties.items[2].fotos[2].alt",
+  "tekst": "Inbouwnissen in de tegelwand van de douche met bediening in brons"
+ },
+ {
+  "n": 141,
+  "pad": "realisaties.items[2].fotos[3].alt",
+  "tekst": "Zwarte handdoekradiator naast de tegelwand van de douche"
+ },
+ {
+  "n": 142,
+  "pad": "realisaties.items[3].titel",
+  "tekst": "Zolder"
+ },
+ {
+  "n": 143,
+  "pad": "realisaties.items[3].fotos[0].alt",
+  "tekst": "Afgewerkte kamer onder het dak met binnendeur en laminaat"
+ },
+ {
+  "n": 144,
+  "pad": "realisaties.items[3].fotos[1].alt",
+  "tekst": "Kamer onder het dak met dakvenster en gepleisterde schuine wand"
+ },
+ {
+  "n": 145,
+  "pad": "realisaties.items[3].fotos[2].alt",
+  "tekst": "Gang op de zolderverdieping met twee witte binnendeuren"
+ },
+ {
+  "n": 146,
+  "pad": "realisaties.items[3].fotos[3].alt",
+  "tekst": "Overloop met laminaat langs de gepleisterde borstwering"
+ },
+ {
+  "n": 147,
+  "pad": "realisaties.items[3].fotos[4].alt",
+  "tekst": "Borstwering langs de trapopening op de zolderverdieping"
+ },
+ {
+  "n": 148,
+  "pad": "realisaties.items[4].titel",
+  "tekst": "Dakkamer"
+ },
+ {
+  "n": 149,
+  "pad": "realisaties.items[4].fotos[0].alt",
+  "tekst": "Zolderkamer met zwarte balken, dakvenster en airco aan de wand"
+ },
+ {
+  "n": 150,
+  "pad": "realisaties.items[4].fotos[1].alt",
+  "tekst": "Afgewerkte zolderkamer met houten vloer onder het schuine dak"
+ },
+ {
+  "n": 151,
+  "pad": "realisaties.items[5].titel",
+  "tekst": "Keuken"
+ },
+ {
+  "n": 152,
+  "pad": "realisaties.items[5].fotos[0].alt",
+  "tekst": "Witte keuken met zwarte metrotegels en spots in het houten plafond"
+ },
+ {
+  "n": 153,
+  "pad": "realisaties.items[5].fotos[1].alt",
+  "tekst": "Werkblad van de keuken met kookplaat en dampkap tijdens de plaatsing"
+ },
+ {
+  "n": 154,
+  "pad": "realisaties.items[6].titel",
+  "tekst": "Achterbouw"
+ },
+ {
+  "n": 155,
+  "pad": "realisaties.items[6].fotos[0].alt",
+  "tekst": "Witte achterbouw met zwarte deuren en een terras in grote tegels"
+ },
+ {
+  "n": 156,
+  "pad": "realisaties.items[6].fotos[1].alt",
+  "tekst": "Achtergevel in ruwbouw met stelling tijdens de werken"
+ },
+ {
+  "n": 157,
+  "pad": "realisaties.knop",
+  "tekst": "Bekijk alle realisaties"
+ },
+ {
+  "n": 158,
+  "pad": "reviews.kop_sterk",
+  "tekst": "Wat klanten schrijven"
+ },
+ {
+  "n": 159,
+  "pad": "reviews.kop_licht",
+  "tekst": "Acht beoordelingen op Google, allemaal vijf sterren."
+ },
+ {
+  "n": 160,
+  "pad": "reviews.bron",
+  "tekst": "Google"
+ },
+ {
+  "n": 161,
+  "pad": "reviews.score",
+  "tekst": "5,0"
+ },
+ {
+  "n": 162,
+  "pad": "reviews.vorige",
+  "tekst": "Vorige review"
+ },
+ {
+  "n": 163,
+  "pad": "reviews.volgende",
+  "tekst": "Volgende review"
+ },
+ {
+  "n": 164,
+  "pad": "reviews.foto_alt",
+  "tekst": "Afgewerkte badkamer met inloopdouche achter glas"
+ },
+ {
+  "n": 165,
+  "pad": "reviews.items[0].tekst",
+  "tekst": "Heel tevreden over Kris zijn werk. Hij denkt echt mee en niets is te veel gevraagd. Alles vakkundig uitgevoerd, met eerlijke en transparante prijzen. Zeer betrouwbaar en aangenaam in de omgang. Een echte aanrader te regio Leuven en omstreken!"
+ },
+ {
+  "n": 166,
+  "pad": "reviews.items[1].tekst",
+  "tekst": "Kris denkt mee met zijn klant mee en adviseert zowel in aanloop als gedurende het project. Wensen vertaalt hij naar een technisch haalbare oplossing. Hij helpt kiezen voor de beste oplossing aan de scherpste prijs."
+ },
+ {
+  "n": 167,
+  "pad": "reviews.items[2].tekst",
+  "tekst": "Wij zijn heel tevreden met het geleverde werk van deze firma, Kris is een zeer bekwaam vakman. Al wat hij gedaan heeft is perfect uitgevoerd en aan een correcte prijs. Het is een harde werker die zijn werk heel goed kent en hij is van zijn woord."
+ },
+ {
+  "n": 168,
+  "pad": "contact.kop",
+  "tekst": "Contact"
+ },
+ {
+  "n": 169,
+  "pad": "contact.adres_label",
+  "tekst": "Adres"
+ },
+ {
+  "n": 170,
+  "pad": "contact.tel_label",
+  "tekst": "Telefoon"
+ },
+ {
+  "n": 171,
+  "pad": "contact.mail_label",
+  "tekst": "E-mail"
+ },
+ {
+  "n": 172,
+  "pad": "contact.btw_label",
+  "tekst": "Ondernemingsnummer"
+ },
+ {
+  "n": 173,
+  "pad": "footer.zin",
+  "tekst": "Badkamers, zolders, keukens en uitbouwen in Herent, Leuven en de gemeenten daarrond."
+ },
+ {
+  "n": 174,
+  "pad": "footer.kop_diensten",
+  "tekst": "Onze diensten"
+ },
+ {
+  "n": 175,
+  "pad": "footer.kop_bedrijf",
+  "tekst": "Bedrijf"
+ },
+ {
+  "n": 176,
+  "pad": "footer.kop_contact",
+  "tekst": "Contact"
+ },
+ {
+  "n": 177,
+  "pad": "footer.bedrijf[0].label",
+  "tekst": "Over ons"
+ },
+ {
+  "n": 178,
+  "pad": "footer.bedrijf[1].label",
+  "tekst": "Werkwijze"
+ },
+ {
+  "n": 179,
+  "pad": "footer.bedrijf[2].label",
+  "tekst": "Realisaties"
+ },
+ {
+  "n": 180,
+  "pad": "footer.bedrijf[3].label",
+  "tekst": "Contact"
+ },
+ {
+  "n": 181,
+  "pad": "footer.facebook",
+  "tekst": "Facebook"
+ },
+ {
+  "n": 182,
+  "pad": "footer.rechten",
+  "tekst": "© 2026 Expert Renovaties BV"
+ }
+]

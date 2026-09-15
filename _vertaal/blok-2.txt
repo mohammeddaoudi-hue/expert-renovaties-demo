@@ -1,0 +1,46 @@
+47 | diensten.groepen[1].alt | Badkamer met inloopdouche achter een glazen wand en een zwevend meubel
+48 | diensten.groepen[1].onderdelen[0] | Leidingen
+49 | diensten.groepen[1].onderdelen[1] | Tegelwerk
+50 | diensten.groepen[1].onderdelen[2] | Douche of bad
+51 | diensten.groepen[1].onderdelen[3] | Meubel
+52 | diensten.groepen[1].onderdelen[4] | Keuken plaatsen
+53 | diensten.groepen[1].label | Badkamer
+54 | diensten.groepen[2].titel | Uitbouw en isolatie
+55 | diensten.groepen[2].tekst | Een extra ruimte tegen uw woning, of een zolder die een kamer wordt. Met isolatie, gevelbekleding en groot schrijnwerk.
+56 | diensten.groepen[2].alt | Uitbouw met verticale houten gevelbekleding en zwarte raamprofielen
+57 | diensten.groepen[2].onderdelen[0] | Draagstructuur
+58 | diensten.groepen[2].onderdelen[1] | Isolatie
+59 | diensten.groepen[2].onderdelen[2] | Gevelbekleding
+60 | diensten.groepen[2].onderdelen[3] | Dakkamers
+61 | diensten.groepen[2].onderdelen[4] | Airco en verwarming
+62 | diensten.groepen[2].label | Uitbreiden
+63 | werkwijze.kop_sterk | Zo verloopt uw verbouwing
+64 | werkwijze.kop_licht | Vier stappen. U weet vooraf wat er gebeurt en wanneer.
+65 | werkwijze.foto_alt | Kris werkt op een ladder aan de raampartij van een uitbouw
+66 | werkwijze.stappen[0].titel | Plaatsbezoek
+67 | werkwijze.stappen[0].tekst | U toont de ruimte en zegt wat u ermee wil. Wij meten op en zeggen wat er technisch mogelijk is.
+68 | werkwijze.stappen[1].titel | Offerte
+69 | werkwijze.stappen[1].tekst | Opgesplitst per onderdeel, met de materialen erbij, zodat u ziet waarvoor u betaalt.
+70 | werkwijze.stappen[2].titel | Uitvoering
+71 | werkwijze.stappen[2].tekst | Dezelfde ploeg doet de ruwbouw en de afwerking. Wij schermen af en houden de rest van uw woning proper.
+72 | werkwijze.stappen[3].titel | Oplevering
+73 | werkwijze.stappen[3].tekst | U loopt de ruimte na met ons en wij zetten recht wat u aanwijst.
+74 | voorna.kop_sterk | Dezelfde ruimte, voor en na
+75 | voorna.kop_licht | Sleep de balk over de foto.
+76 | voorna.voor | Voor
+77 | voorna.na | Na
+78 | voorna.vorige | Vorig project
+79 | voorna.volgende | Volgend project
+80 | voorna.paren[0].titel | Badkamer
+81 | voorna.paren[0].voor | bad-ruw
+82 | voorna.paren[0].na | bad-af
+83 | voorna.paren[0].voor_alt | Badkamer tijdens de werken, met het bad al ingemetseld en de wanden nog kaal
+84 | voorna.paren[0].na_alt | Dezelfde badkamer afgewerkt, met tegelwerk, regendouches en een natuurstenen vloer
+85 | voorna.paren[1].titel | Uitbouw
+86 | voorna.paren[1].voor | uitbouw-folie
+87 | voorna.paren[1].na | uitbouw-tuinzijde
+88 | voorna.paren[1].voor_alt | Uitbouw in dampscherm met stelling, voor de gevelbekleding
+89 | voorna.paren[1].na_alt | Dezelfde uitbouw met de houten gevelbekleding geplaatst
+90 | waarom.kop_sterk | Waarom Expert Renovaties
+91 | waarom.intro | Een renovatie is meer dan uitbreken en opnieuw opbouwen. Het werk loopt vast op de aansluitingen. De tegelzetter wacht op de pleisteraar, de badkamer staat stil omdat de leidingen nog niet liggen. Wij nemen de ruwbouw en de afwerking samen aan, met dezelfde ploeg.
+92 | waarom.items[0].titel | Advies aan huis

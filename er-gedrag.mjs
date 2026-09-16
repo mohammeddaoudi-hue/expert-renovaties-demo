@@ -253,6 +253,41 @@ const browser = await puppeteer.launch({ executablePath: 'C:/Program Files/Googl
   await pg.close();
 }
 
+/* ================= belknop blijft op een regel ================= */
+{
+  const pg = await browser.newPage();
+  const stuk = [];
+  for (const br of [1025, 1080, 1150, 1280, 1440, 1600]) {
+    for (const [pad, code] of [['', 'nl'], ['fr/', 'fr'], ['en/', 'en']]) {
+      await pg.setViewport({ width: br, height: 900 });
+      await pg.goto(URL + pad, { waitUntil: 'domcontentloaded', timeout: 60000 });
+      const m = await pg.evaluate(() => {
+        // tel de regels van de tekst zelf, niet de hoogte van de knop: die staat vast
+        const regels = (el) => {
+          if (!el) return 0;
+          let n = 0;
+          for (const kind of el.childNodes) {
+            if (kind.nodeType !== 3 || !kind.textContent.trim()) continue;
+            const rng = document.createRange(); rng.selectNodeContents(kind);
+            n = Math.max(n, rng.getClientRects().length);
+          }
+          return n;
+        };
+        const knop = document.querySelector('.er-kop__bel');
+        const binnen = knop
+          ? Math.round(knop.getBoundingClientRect().right) <= Math.round(knop.parentElement.getBoundingClientRect().right) + 1
+          : false;
+        return { regels: regels(knop), binnen, over: document.documentElement.scrollWidth - document.documentElement.clientWidth };
+      });
+      if (m.regels !== 1) stuk.push(code + ' ' + br + 'px: ' + m.regels + ' regels');
+      if (!m.binnen) stuk.push(code + ' ' + br + 'px: knop buiten de balk');
+      if (m.over > 0) stuk.push(code + ' ' + br + 'px: overloop ' + m.over);
+    }
+  }
+  test('belknop blijft overal op een regel', stuk.length === 0, stuk.join(', '));
+  await pg.close();
+}
+
 await browser.close();
 
 console.log('geslaagd: ' + ok + '   gefaald: ' + fouten.length);

@@ -535,3 +535,9 @@ a.er-score:hover span { color: var(--merk); }
 }
 .er-voet__sociaal { display: inline-grid; place-items: center; width: 34px; height: 34px; border-radius: 999px; border: 1px solid var(--lijn); color: var(--kop); }
 .er-voet__sociaal:hover { background: var(--merk); border-color: var(--merk); color: var(--wit); }
+
+/* de Franse balk is het breedst; tussen 1025 en 1160 px wordt de knop compacter zodat alles past */
+@media (min-width: 1025px) and (max-width: 1160px) {
+  .er-kop__bel { padding: 0 16px; font-size: 14px; gap: 7px; }
+  .er-nav ul { gap: 18px; }
+}

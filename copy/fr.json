@@ -150,7 +150,7 @@
       {
         "id": "badkamers",
         "titel": "Salles de bains et cuisines",
-        "tekst": "Nous renouvelons les conduites, posons le carrelage et installons le sanitaire et le meuble. La pièce vous revient prête à l'emploi.",
+        "tekst": "Nous renouvelons les conduites, posons le carrelage et installons le sanitaire, le meuble et votre cuisine.",
         "img": "douche-overzicht",
         "alt": "Salle de bains avec une douche à l'italienne derrière une paroi en verre et un meuble suspendu",
         "onderdelen": [
@@ -436,7 +436,7 @@
         ]
       }
     ],
-    "knop": "Voir toutes les réalisations"
+    "knop": "Toutes les réalisations"
   },
   "reviews": {
     "kop_sterk": "Ce que les clients écrivent",
@@ -466,7 +466,9 @@
         "sterren": 5,
         "tekst": "Nous sommes très satisfaits du travail livré par cette firme, Kris est un homme de métier très compétent. Tout ce qu'il a fait est parfaitement exécuté et à un prix correct. C'est un travailleur acharné qui connaît très bien son métier et il tient parole."
       }
-    ]
+    ],
+    "url": "https://www.google.com/maps/place/Expert+Renovaties/data=!4m7!3m6!1s0x47c3df61714b4e3f:0x13f5afbf196a3422!8m2!3d50.900974!4d4.6145595!16s%2Fg%2F11rxmtt2kc!19sChIJP05LcWHfw0cRIjRqGb-v9RM",
+    "bekijk": "Voir les avis"
   },
   "contact": {
     "kop": "Contact",

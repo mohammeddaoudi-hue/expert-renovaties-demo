@@ -96,7 +96,8 @@ a.er-taal:hover { color: var(--merk); background: var(--merk-licht); }
 /* ---------- kop ---------- */
 .er-kop { position: sticky; top: 0; z-index: 60; background: var(--wit); border-bottom: 1px solid var(--lijn); }
 .er-kop__in { display: flex; align-items: center; gap: 34px; min-height: 84px; }
-.er-logo img { width: auto; height: 44px; }
+.er-logo { display: inline-flex; align-items: center; flex: none; min-width: 0; }
+.er-logo img { width: auto; height: 44px; flex: none; }
 .er-nav ul { display: flex; gap: 26px; flex-wrap: nowrap; }
 .er-nav a { font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 15.5px; font-weight: 600; color: var(--inkt); padding: 8px 0; border-bottom: 2px solid transparent; white-space: nowrap; }
 .er-nav a:hover { color: var(--merk); border-color: var(--merk); }
@@ -335,7 +336,7 @@ a.er-score:hover span { color: var(--merk); }
   html { scroll-padding-top: 78px; }
 
   /* één rij: bellen links, sociaal rechts. Mail en adres staan in de voettekst. */
-  .er-top__in { flex-wrap: nowrap; justify-content: space-between; gap: 12px; min-height: 42px; font-size: 13.5px; padding: 0; }
+  .er-top__in { flex-wrap: nowrap; justify-content: space-between; gap: 12px; min-height: 42px; font-size: 13.5px; }
   .er-top__stuk:nth-child(1) { display: none; }
   .er-top__stuk:nth-child(3) { display: none; }
   .er-top__bel { white-space: nowrap; display: block; }
@@ -537,7 +538,15 @@ a.er-score:hover span { color: var(--merk); }
 .er-voet__sociaal:hover { background: var(--merk); border-color: var(--merk); color: var(--wit); }
 
 /* de Franse balk is het breedst; tussen 1025 en 1160 px wordt de knop compacter zodat alles past */
-@media (min-width: 1025px) and (max-width: 1160px) {
+@media (min-width: 1001px) and (max-width: 1280px) {
   .er-kop__bel { padding: 0 16px; font-size: 14px; gap: 7px; }
   .er-nav ul { gap: 18px; }
+}
+
+/* Tussen 1001 en 1160 px past de menubalk niet meer in het Frans; daar gaat het menu naar de knop. */
+@media (min-width: 1001px) and (max-width: 1160px) {
+  .er-nav { display: none; }
+  .er-menuknop { display: inline-flex; }
+  .er-mobielmenu { display: block; }
+  .er-kop__bel { margin-left: auto; }
 }

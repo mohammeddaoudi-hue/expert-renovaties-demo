@@ -150,7 +150,7 @@
       {
         "id": "badkamers",
         "titel": "Bathrooms and kitchens",
-        "tekst": "We renew the pipework, lay the tiling and fit the sanitary ware and the unit. The room comes back ready to use.",
+        "tekst": "We renew the pipework, lay the tiling and fit the sanitary ware, the vanity unit and your kitchen.",
         "img": "douche-overzicht",
         "alt": "Bathroom with a walk-in shower behind a glass screen and a wall-hung vanity unit",
         "onderdelen": [
@@ -466,7 +466,9 @@
         "sterren": 5,
         "tekst": "We are very happy with the work this company delivered, Kris is a very capable craftsman. Everything he has done was carried out perfectly and at a fair price. He is a hard worker who knows his trade very well and he is a man of his word."
       }
-    ]
+    ],
+    "url": "https://www.google.com/maps/place/Expert+Renovaties/data=!4m7!3m6!1s0x47c3df61714b4e3f:0x13f5afbf196a3422!8m2!3d50.900974!4d4.6145595!16s%2Fg%2F11rxmtt2kc!19sChIJP05LcWHfw0cRIjRqGb-v9RM",
+    "bekijk": "Read the reviews"
   },
   "contact": {
     "kop": "Contact",

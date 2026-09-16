@@ -288,6 +288,27 @@ const browser = await puppeteer.launch({ executablePath: 'C:/Program Files/Googl
   await pg.close();
 }
 
+/* ================= logo houdt overal zijn verhouding ================= */
+{
+  const pg = await browser.newPage();
+  const stuk = [];
+  for (const br of [1440, 1200, 1100, 1024, 900, 390]) {
+    for (const [pad, code] of [['', 'nl'], ['fr/', 'fr'], ['en/', 'en']]) {
+      await pg.setViewport({ width: br, height: 900 });
+      await pg.goto(URL + pad, { waitUntil: 'domcontentloaded', timeout: 60000 });
+      const afw = await pg.evaluate(() => {
+        const i = document.querySelector('.er-logo img');
+        if (!i || !i.naturalWidth) return 0;
+        const r = i.getBoundingClientRect();
+        return Math.abs(1 - (r.width / r.height) / (i.naturalWidth / i.naturalHeight));
+      });
+      if (afw > 0.03) stuk.push(code + ' ' + br + 'px: ' + Math.round(afw * 100) + '% vervormd');
+    }
+  }
+  test('logo niet vervormd op elke breedte en taal', stuk.length === 0, stuk.join(', '));
+  await pg.close();
+}
+
 await browser.close();
 
 console.log('geslaagd: ' + ok + '   gefaald: ' + fouten.length);

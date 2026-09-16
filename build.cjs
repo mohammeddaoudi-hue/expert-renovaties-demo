@@ -35,11 +35,16 @@ const naarTaal = (doel, bestand) => {
   if (doel.map === '') return '../' + b2;
   return '../' + doel.map + '/' + b2;
 };
-const taalkeuze = (bestand) => TALEN.length < 2 ? '' : '<p class="er-talen">' + TALEN.map(d =>
-  d.code === taal.code
-    ? '<span class="er-taal is-aan" aria-current="true">' + d.label + '</span>'
-    : '<a class="er-taal" href="' + naarTaal(d, bestand) + '" hreflang="' + d.code + '">' + d.label + '</a>'
-).join('') + '</p>';
+const taalkeuze = (bestand) => TALEN.length < 2 ? '' :
+  '<div class="er-talen">' +
+  '<button class="er-talen__knop" type="button" aria-expanded="false" aria-haspopup="true" aria-label="Taal kiezen">' +
+    '<span>' + taal.label + '</span>' +
+    '<svg viewBox="0 0 12 8" width="10" height="7" aria-hidden="true"><path d="M1 1.5 6 6.5l5-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>' +
+  '</button>' +
+  '<div class="er-talen__lijst" hidden>' + TALEN.filter(d => d.code !== taal.code).map(d =>
+    '<a class="er-taal" href="' + naarTaal(d, bestand) + '" hreflang="' + d.code + '">' + d.label + '</a>'
+  ).join('') + '</div>' +
+  '</div>';
 const BESTAND = 'index.html';
 
 const esc = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -100,7 +105,6 @@ const kop = `
   </div>
   <div class="er-mobielmenu" id="er-mobielmenu" hidden>
     <ul>${t.nav.map(n => `<li><a href="${esc(n.naar)}">${esc(n.label)}</a></li>`).join('')}</ul>
-    ${taalkeuze(BESTAND).replace('er-talen', 'er-talen er-talen--menu')}
     <a class="er-knop er-knop--vol er-mobielmenu__knop" href="#contact">${esc(t.hero.knop1)}</a>
   </div>
 </header>`;
@@ -143,7 +147,7 @@ const diensten = `
           <span class="er-rij__nr">0${i + 1}</span>
           <h3>${esc(d.titel)}</h3>
           <p>${esc(d.tekst)}</p>
-          <ul class="er-rij__lijst">${d.onderdelen.map(o => `<li>${esc(o)}</li>`).join('')}</ul>
+          <ul class="er-rij__lijst">${d.onderdelen.map(o => `<li><span class="er-rij__mini"><img src="${basis}img/${esc(o.img)}-500.jpg" alt="" aria-hidden="true" width="40" height="40" loading="lazy" decoding="async"></span>${esc(o.naam)}</li>`).join('')}</ul>
           <a class="er-rij__link" href="#contact">${esc(t.diensten.knop)}<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h13M12 5l7 7-7 7"/></svg></a>
         </div>
       </article>`).join('')}

@@ -186,6 +186,15 @@
       stippen.forEach(function (d, n) { d.classList.toggle('is-aan', n === huidig); });
     };
 
+    // bij het laden staat op een telefoon maar één paar open; op een breed scherm allebei
+    toonPaar(0);
+    var laatstBreed = breed();
+    window.addEventListener('resize', function () {
+      if (breed() === laatstBreed) return;
+      laatstBreed = breed();
+      toonPaar(huidig);
+    });
+
     schuif.addEventListener('click', function (e) {
       var k = e.target.closest('button');
       if (!k) return;
@@ -342,5 +351,33 @@
     if (sluit) sluit.addEventListener('click', function () { open(false); });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') open(false); });
     schuif.addEventListener('click', function (e) { if (schuif.classList.contains('is-groot') && e.target === schuif) open(false); });
+  })();
+
+  /* ---- taalkeuze in de balk ---- */
+  (function () {
+    var doos = document.querySelector('.er-talen--kop');
+    if (!doos) return;
+    var knop = doos.querySelector('.er-talen__knop');
+    var lijst = doos.querySelector('.er-talen__lijst');
+    if (!knop || !lijst) return;
+    var zet = function (open) {
+      doos.classList.toggle('is-open', open);
+      knop.setAttribute('aria-expanded', open ? 'true' : 'false');
+      lijst.hidden = !open;
+    };
+    knop.addEventListener('click', function (e) { e.stopPropagation(); zet(lijst.hidden); });
+    document.addEventListener('click', function (e) { if (!doos.contains(e.target)) zet(false); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') zet(false); });
+  })();
+
+  /* ---- hero: rustige binnenkomst ---- */
+  (function () {
+    var hero = document.querySelector('.er-hero');
+    if (!hero) return;
+    var stil = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (stil) { hero.classList.add('is-binnen'); return; }
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () { hero.classList.add('is-binnen'); });
+    });
   })();
 })();

@@ -97,12 +97,13 @@ t.realisaties.items.forEach(p => p.fotos.forEach(f => foto(f.img)));
 const altLeeg = [];
 (function alts(o, pad) {
   if (o && typeof o === 'object') {
-    if (typeof o.img === 'string' && !(o.alt || '').trim()) altLeeg.push(pad);
+    // een beeld naast een eigen tekstlabel is decoratief (aria-hidden in de html) en hoeft geen alt
+    if (typeof o.img === 'string' && typeof o.naam !== 'string' && !(o.alt || '').trim()) altLeeg.push(pad);
     Object.entries(o).forEach(([k, v]) => alts(v, pad + '.' + k));
   }
 })(t, '');
 check('alt-tekst', altLeeg.length === 0, altLeeg.join(', '));
-check('alt in html', !/<img[^>]*alt=""/.test(html), 'lege alt in index.html');
+check('alt in html', !/<img(?![^>]*aria-hidden)[^>]*alt=""/.test(html), 'lege alt zonder aria-hidden in index.html');
 
 /* ---- 7. realisaties beginnen met het afgewerkte beeld ---- */
 for (const p of t.realisaties.items) {

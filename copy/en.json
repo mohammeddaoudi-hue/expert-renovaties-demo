@@ -139,11 +139,26 @@
         "img": "ruwbouw-stelling",
         "alt": "Rear facade at structural stage with scaffolding up during a full renovation",
         "onderdelen": [
-          "Strip-out",
-          "Structural work",
-          "Plastering",
-          "Floors and tiling",
-          "Finishing"
+          {
+            "naam": "Strip-out",
+            "img": "bad-ruw"
+          },
+          {
+            "naam": "Structural work",
+            "img": "ruwbouw-stelling"
+          },
+          {
+            "naam": "Plastering",
+            "img": "zolder-gang"
+          },
+          {
+            "naam": "Floors and tiling",
+            "img": "zolder-overloop"
+          },
+          {
+            "naam": "Finishing",
+            "img": "zolder-kamer"
+          }
         ],
         "label": "Home"
       },
@@ -154,11 +169,26 @@
         "img": "douche-overzicht",
         "alt": "Bathroom with a walk-in shower behind a glass screen and a wall-hung vanity unit",
         "onderdelen": [
-          "Pipework",
-          "Tiling",
-          "Shower or bath",
-          "Vanity unit",
-          "Kitchen fitting"
+          {
+            "naam": "Pipework",
+            "img": "bad-ruw"
+          },
+          {
+            "naam": "Tiling",
+            "img": "douche-nissen"
+          },
+          {
+            "naam": "Shower or bath",
+            "img": "bad-af"
+          },
+          {
+            "naam": "Vanity unit",
+            "img": "douche-overzicht"
+          },
+          {
+            "naam": "Kitchen fitting",
+            "img": "keuken-werkblad"
+          }
         ],
         "label": "Bathroom"
       },
@@ -169,11 +199,26 @@
         "img": "uitbouw-hoek",
         "alt": "Extension with vertical timber cladding and black window frames",
         "onderdelen": [
-          "Load-bearing structure",
-          "Insulation",
-          "Exterior cladding",
-          "Loft rooms",
-          "Air conditioning and heating"
+          {
+            "naam": "Load-bearing structure",
+            "img": "uitbouw-folie"
+          },
+          {
+            "naam": "Insulation",
+            "img": "uitbouw-stelling"
+          },
+          {
+            "naam": "Exterior cladding",
+            "img": "uitbouw-zijkant"
+          },
+          {
+            "naam": "Loft rooms",
+            "img": "zolderkamer-vloer"
+          },
+          {
+            "naam": "Air conditioning and heating",
+            "img": "zolderkamer-airco"
+          }
         ],
         "label": "Extending"
       }
@@ -265,7 +310,7 @@
   },
   "cta": {
     "kop_sterk": "Want to discuss your project?",
-    "tekst": "Tell us what you would like done. We come out, measure up and give you a price for each part of the job.",
+    "tekst": "Tell us what you want done. We come round, take the measurements and send you a no-obligation quote.",
     "knop": "Call +32 491 63 05 66",
     "foto": "achterbouw-terras",
     "foto_alt": "Plastered rear extension with black exterior joinery and a terrace in large tiles",

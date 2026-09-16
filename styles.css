@@ -83,9 +83,6 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .er-top__bel a { display: inline-flex; align-items: center; gap: 7px; }
 .er-top__bel svg { color: var(--merk); }
 .er-top a:hover { color: var(--merk); }
-.er-talen { display: flex; align-items: center; gap: 2px; }
-.er-talen--kop { margin-left: auto; padding-right: 20px; margin-right: 4px; border-right: 1px solid var(--lijn); }
-.er-talen--menu { display: none; }
 .er-taal { display: inline-flex; align-items: center; justify-content: center; min-width: 32px; height: 26px; padding: 0 7px; border-radius: 3px; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 12.5px; font-weight: 700; letter-spacing: .02em; color: var(--zacht); transition: color .18s ease, background .18s ease; }
 a.er-taal:hover { color: var(--merk); background: var(--merk-licht); }
 .er-taal.is-aan { color: var(--wit); background: var(--merk); }
@@ -168,9 +165,8 @@ a.er-bewijs__google:hover { transform: translateY(-1px); box-shadow: 0 6px 18px 
 .er-rij__nr { font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-weight: 800; font-size: 12.5px; letter-spacing: .14em; color: var(--merk); margin-bottom: 12px; }
 .er-rij h3 { font-size: clamp(22px, 2.1vw, 28px); }
 .er-rij__tekst > p { margin-top: 12px; color: var(--tekst); max-width: 42ch; }
-.er-rij__lijst { margin-top: 24px; display: grid; grid-template-columns: 1fr 1fr; gap: 0 22px; }
-.er-rij__lijst li { padding: 10px 0 10px 20px; border-top: 1px solid var(--lijn); font-size: 15px; color: var(--inkt); position: relative; }
-.er-rij__lijst li::before { content: ""; position: absolute; left: 1px; top: 50%; width: 6px; height: 6px; margin-top: -3px; border-radius: 999px; background: var(--merk); }
+.er-rij__lijst { margin-top: 26px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 9px; }
+.er-rij__lijst li { position: relative; overflow: hidden; display: flex; align-items: flex-end; min-height: 104px; padding: 12px 13px; border: 1px solid var(--lijn); border-radius: 10px; background: var(--wit); font-size: 14.5px; font-weight: 600; color: var(--inkt); }
 .er-rij__link { margin-top: 28px; display: inline-flex; align-items: center; min-height: 44px; gap: 9px; align-self: flex-start; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-weight: 700; font-size: 15px; color: var(--merk); padding-bottom: 3px; border-bottom: 2px solid transparent; }
 .er-rij__link:hover { border-color: var(--merk); gap: 14px; }
 
@@ -341,7 +337,6 @@ a.er-score:hover span { color: var(--merk); }
   .er-top__stuk:nth-child(3) { display: none; }
   .er-top__bel { white-space: nowrap; display: block; }
   .er-top__bel a { font-weight: 600; color: var(--inkt); min-height: 42px; }
-  .er-talen--kop { display: none; }
   .er-talen--menu { display: flex; gap: 6px; margin-top: 20px; }
   .er-talen--menu .er-taal { flex: 1; min-width: 0; height: 44px; font-size: 14px; border: 1px solid var(--lijn); border-radius: var(--r); }
   .er-talen--menu .er-taal.is-aan { border-color: var(--merk); }
@@ -549,4 +544,69 @@ a.er-score:hover span { color: var(--merk); }
   .er-menuknop { display: inline-flex; }
   .er-mobielmenu { display: block; }
   .er-kop__bel { margin-left: auto; }
+}
+
+/* ---------- taalkeuze in de balk: knop met een klein menu ---------- */
+.er-talen { position: relative; flex: none; }
+.er-talen--menu { display: none; }
+.er-talen__knop {
+  display: inline-flex; align-items: center; gap: 6px; height: 40px; padding: 0 12px;
+  border: 1px solid var(--lijn); border-radius: var(--r); background: var(--wit);
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-size: 13.5px; font-weight: 700;
+  letter-spacing: .02em; color: var(--inkt); cursor: pointer;
+  transition: border-color .18s ease, background .18s ease;
+}
+.er-talen__knop:hover { border-color: var(--inkt); }
+.er-talen__knop svg { transition: transform .22s cubic-bezier(.3,.7,.3,1); }
+.er-talen.is-open .er-talen__knop { border-color: var(--inkt); }
+.er-talen.is-open .er-talen__knop svg { transform: rotate(180deg); }
+.er-talen__lijst[hidden] { display: none; }
+.er-talen__lijst {
+  position: absolute; top: calc(100% + 6px); right: 0; z-index: 70;
+  display: grid; min-width: 100%; padding: 5px;
+  background: var(--wit); border: 1px solid var(--lijn); border-radius: var(--r);
+  box-shadow: 0 10px 28px rgba(15, 34, 68, .12);
+}
+.er-talen__lijst .er-taal {
+  display: flex; align-items: center; justify-content: center; height: 34px; padding: 0 12px;
+  border-radius: 3px; font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  font-size: 13.5px; font-weight: 700; color: var(--inkt);
+}
+.er-talen__lijst .er-taal:hover { background: var(--merk-licht); color: var(--merk); }
+
+/* ---------- hero: rustige binnenkomst, één keer bij het laden ---------- */
+@media (prefers-reduced-motion: no-preference) {
+  .er-hero__dia.is-aan img { transform: scale(1.06); transition: transform 1.9s cubic-bezier(.22,.61,.36,1); }
+  .er-hero.is-binnen .er-hero__dia.is-aan img { transform: scale(1); }
+  .er-hero h1, .er-hero__acties, .er-hero__bewijs, .er-hero__streep, .er-hero__bediening {
+    opacity: 0; transform: translateY(14px);
+    transition: opacity .7s cubic-bezier(.22,.61,.36,1), transform .7s cubic-bezier(.22,.61,.36,1);
+  }
+  .er-hero.is-binnen h1 { opacity: 1; transform: none; transition-delay: .12s; }
+  .er-hero.is-binnen .er-hero__acties { opacity: 1; transform: none; transition-delay: .26s; }
+  .er-hero.is-binnen .er-hero__bewijs { opacity: 1; transform: none; transition-delay: .38s; }
+  .er-hero.is-binnen .er-hero__streep,
+  .er-hero.is-binnen .er-hero__bediening { opacity: 1; transform: none; transition-delay: .5s; }
+}
+
+/* De taalkeuze blijft ook op een telefoon in de balk staan, als één knop met een menu. */
+@media (max-width: 1000px) {
+  .er-talen { margin-left: auto; }
+  .er-talen__knop { height: 38px; padding: 0 10px; font-size: 13px; }
+  .er-talen__lijst { right: 0; min-width: 76px; }
+}
+@media (max-width: 420px) {
+  .er-talen__knop { height: 36px; padding: 0 9px; gap: 5px; }
+}
+
+
+/* de foto zit in de bovenrand van het vakje en vervaagt naar wit, zodat de naam rustig leest */
+.er-rij__mini { position: absolute; inset: 0 0 auto 0; height: 72px; pointer-events: none; }
+.er-rij__mini img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.er-rij__mini::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(255,255,255,.06) 0%, rgba(255,255,255,.58) 58%, #fff 96%); }
+.er-rij__lijst li:hover { border-color: var(--inkt); }
+@media (max-width: 700px) {
+  .er-rij__lijst { grid-template-columns: 1fr 1fr; gap: 8px; }
+  .er-rij__lijst li { min-height: 84px; font-size: 13.8px; padding: 10px 11px; }
+  .er-rij__mini { height: 54px; }
 }

@@ -139,11 +139,26 @@
         "img": "ruwbouw-stelling",
         "alt": "Façade arrière en gros oeuvre avec un échafaudage pendant une rénovation complète",
         "onderdelen": [
-          "Démolition",
-          "Gros oeuvre",
-          "Plafonnage",
-          "Sols et carrelages",
-          "Finitions"
+          {
+            "naam": "Démolition",
+            "img": "bad-ruw"
+          },
+          {
+            "naam": "Gros oeuvre",
+            "img": "ruwbouw-stelling"
+          },
+          {
+            "naam": "Plafonnage",
+            "img": "zolder-gang"
+          },
+          {
+            "naam": "Sols et carrelages",
+            "img": "zolder-overloop"
+          },
+          {
+            "naam": "Finitions",
+            "img": "zolder-kamer"
+          }
         ],
         "label": "Maison"
       },
@@ -154,11 +169,26 @@
         "img": "douche-overzicht",
         "alt": "Salle de bains avec une douche à l'italienne derrière une paroi en verre et un meuble suspendu",
         "onderdelen": [
-          "Conduites",
-          "Carrelage",
-          "Douche ou baignoire",
-          "Meuble",
-          "Placement de cuisine"
+          {
+            "naam": "Conduites",
+            "img": "bad-ruw"
+          },
+          {
+            "naam": "Carrelage",
+            "img": "douche-nissen"
+          },
+          {
+            "naam": "Douche ou baignoire",
+            "img": "bad-af"
+          },
+          {
+            "naam": "Meuble",
+            "img": "douche-overzicht"
+          },
+          {
+            "naam": "Placement de cuisine",
+            "img": "keuken-werkblad"
+          }
         ],
         "label": "Salle de bains"
       },
@@ -169,11 +199,26 @@
         "img": "uitbouw-hoek",
         "alt": "Extension avec un bardage en bois vertical et des profilés de châssis noirs",
         "onderdelen": [
-          "Structure portante",
-          "Isolation",
-          "Bardage",
-          "Chambres sous combles",
-          "Climatisation et chauffage"
+          {
+            "naam": "Structure portante",
+            "img": "uitbouw-folie"
+          },
+          {
+            "naam": "Isolation",
+            "img": "uitbouw-stelling"
+          },
+          {
+            "naam": "Bardage",
+            "img": "uitbouw-zijkant"
+          },
+          {
+            "naam": "Chambres sous combles",
+            "img": "zolderkamer-vloer"
+          },
+          {
+            "naam": "Climatisation et chauffage",
+            "img": "zolderkamer-airco"
+          }
         ],
         "label": "Agrandissement"
       }
@@ -265,7 +310,7 @@
   },
   "cta": {
     "kop_sterk": "Parler de votre projet ?",
-    "tekst": "Dites-nous ce que vous voulez faire réaliser. Nous passons chez vous, nous prenons les mesures et nous vous remettons un prix par poste.",
+    "tekst": "Dites-nous ce que vous voulez faire réaliser. Nous passons chez vous, nous prenons les mesures et nous vous remettons un devis sans engagement.",
     "knop": "Appelez le +32 491 63 05 66",
     "foto": "achterbouw-terras",
     "foto_alt": "Annexe arrière crépie avec une menuiserie extérieure noire et une terrasse en grandes dalles",

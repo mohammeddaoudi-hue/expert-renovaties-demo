@@ -61,7 +61,7 @@ const browser = await puppeteer.launch({ executablePath: 'C:/Program Files/Googl
 
   const beeld = await pg.evaluate(() => {
     const al = [...document.images];
-    return { totaal: al.length, stuk: al.filter(i => !i.complete || i.naturalWidth === 0).map(i => i.getAttribute('src')), zonderAlt: al.filter(i => !(i.alt || '').trim()).length };
+    return { totaal: al.length, stuk: al.filter(i => !i.complete || i.naturalWidth === 0).map(i => i.getAttribute('src')), zonderAlt: al.filter(i => !(i.alt || '').trim() && i.getAttribute('aria-hidden') !== 'true').length };
   });
   test('alle beelden laden', beeld.stuk.length === 0, beeld.stuk.slice(0, 3).join(', '));
   test('minstens 30 beelden op de pagina', beeld.totaal >= 30, String(beeld.totaal));

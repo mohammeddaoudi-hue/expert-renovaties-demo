@@ -139,11 +139,26 @@
         "img": "ruwbouw-stelling",
         "alt": "Achtergevel in ruwbouw met stelling tijdens een volledige renovatie",
         "onderdelen": [
-          "Uitbraak",
-          "Ruwbouw",
-          "Pleisterwerk",
-          "Vloeren en tegels",
-          "Afwerking"
+          {
+            "naam": "Uitbraak",
+            "img": "bad-ruw"
+          },
+          {
+            "naam": "Ruwbouw",
+            "img": "ruwbouw-stelling"
+          },
+          {
+            "naam": "Pleisterwerk",
+            "img": "zolder-gang"
+          },
+          {
+            "naam": "Vloeren en tegels",
+            "img": "zolder-overloop"
+          },
+          {
+            "naam": "Afwerking",
+            "img": "zolder-kamer"
+          }
         ],
         "label": "Woning"
       },
@@ -154,11 +169,26 @@
         "img": "douche-overzicht",
         "alt": "Badkamer met inloopdouche achter een glazen wand en een zwevend meubel",
         "onderdelen": [
-          "Leidingen",
-          "Tegelwerk",
-          "Douche of bad",
-          "Meubel",
-          "Keuken plaatsen"
+          {
+            "naam": "Leidingen",
+            "img": "bad-ruw"
+          },
+          {
+            "naam": "Tegelwerk",
+            "img": "douche-nissen"
+          },
+          {
+            "naam": "Douche of bad",
+            "img": "bad-af"
+          },
+          {
+            "naam": "Meubel",
+            "img": "douche-overzicht"
+          },
+          {
+            "naam": "Keuken plaatsen",
+            "img": "keuken-werkblad"
+          }
         ],
         "label": "Badkamer"
       },
@@ -169,11 +199,26 @@
         "img": "uitbouw-hoek",
         "alt": "Uitbouw met verticale houten gevelbekleding en zwarte raamprofielen",
         "onderdelen": [
-          "Draagstructuur",
-          "Isolatie",
-          "Gevelbekleding",
-          "Dakkamers",
-          "Airco en verwarming"
+          {
+            "naam": "Draagstructuur",
+            "img": "uitbouw-folie"
+          },
+          {
+            "naam": "Isolatie",
+            "img": "uitbouw-stelling"
+          },
+          {
+            "naam": "Gevelbekleding",
+            "img": "uitbouw-zijkant"
+          },
+          {
+            "naam": "Dakkamers",
+            "img": "zolderkamer-vloer"
+          },
+          {
+            "naam": "Airco en verwarming",
+            "img": "zolderkamer-airco"
+          }
         ],
         "label": "Uitbreiden"
       }
@@ -265,7 +310,7 @@
   },
   "cta": {
     "kop_sterk": "Uw project bespreken?",
-    "tekst": "Laat weten wat u wil laten doen. Wij komen langs, meten op en bezorgen u een prijs per onderdeel.",
+    "tekst": "Laat weten wat u wil laten doen. Wij komen langs, meten op en bezorgen u een vrijblijvende offerte.",
     "knop": "Bel +32 491 63 05 66",
     "foto": "achterbouw-terras",
     "foto_alt": "Gepleisterde achterbouw met zwart buitenschrijnwerk en een terras in grote tegels",

@@ -322,21 +322,23 @@ const browser = await puppeteer.launch({ executablePath: 'C:/Program Files/Googl
     await pg.setViewport({ width: br, height: 900, deviceScaleFactor: 1 });
     await pg.goto(URL, { waitUntil: 'networkidle0' });
     await pg.evaluate(() => document.querySelectorAll('.er-op').forEach(e => e.classList.add('is-zichtbaar')));
-    // de blokken schuiven bij het verschijnen omhoog; pas daarna liggen tekst en foto op hun plek
-    await new Promise(r => setTimeout(r, 800));
+    // eerst de luie beelden binnenhalen: anders meet je de grond onder een foto die er nog niet is
+    await beeldenKlaar(pg);
+    await new Promise(r => setTimeout(r, 500));
     const stukken = await pg.evaluate(() => {
       const uit = [];
       document.querySelectorAll('.er-rij').forEach(rij => {
         rij.querySelectorAll('.er-rij__nr, h3, .er-rij__tekst > p, .er-rij__lijst li, .er-rij__link').forEach(el => {
           const r = el.getBoundingClientRect();
           if (r.width < 4 || r.height < 4) return;
-          uit.push({ id: rij.id, x: r.left, y: r.top + window.scrollY, w: Math.round(r.width), h: Math.round(r.height), kleur: getComputedStyle(el).color });
+          uit.push({ id: rij.id, wat: (el.className || el.tagName).toString().split(' ')[0], x: r.left, y: r.top + window.scrollY, w: Math.round(r.width), h: Math.round(r.height), kleur: getComputedStyle(el).color });
         });
       });
       return uit;
     });
-    await pg.evaluate(() => document.querySelectorAll('.er-rij__tekst > *')
-      .forEach(e => { if (!e.classList.contains('er-rij__vakfoto')) e.style.visibility = 'hidden'; }));
+    // alleen de tekst zelf verbergen: de omhulsels dragen de foto en moeten blijven staan
+    await pg.evaluate(() => document.querySelectorAll('.er-rij__nr, .er-rij h3, .er-rij__top > p, .er-rij__lijst, .er-rij__link')
+      .forEach(e => { e.style.visibility = 'hidden'; }));
     for (const v of stukken) {
       const buf = await pg.screenshot({ clip: { x: v.x, y: v.y, width: v.w, height: v.h } });
       const rauw = Array.from(await sharp(buf).greyscale().raw().toBuffer()).sort((a, c) => c - a);
@@ -347,7 +349,7 @@ const browser = await puppeteer.launch({ executablePath: 'C:/Program Files/Googl
       const Lt = 0.2126 * rel(t[0]) + 0.7152 * rel(t[1]) + 0.0722 * rel(t[2]);
       const Lb = 0.2126 * rel(licht) + 0.7152 * rel(licht) + 0.0722 * rel(licht);
       const r = (Math.max(Lt, Lb) + .05) / (Math.min(Lt, Lb) + .05);
-      if (r < zwakste.r) zwakste = { r, waar: v.id + ' @' + br + 'px (achtergrond ' + licht + ')' };
+      if (r < zwakste.r) zwakste = { r, waar: v.id + ' ' + v.wat + ' @' + br + 'px (achtergrond ' + licht + ')' };
     }
   }
   await pg.close();

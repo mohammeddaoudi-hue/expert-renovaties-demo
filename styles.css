@@ -161,13 +161,15 @@ a.er-bewijs__google:hover { transform: translateY(-1px); box-shadow: 0 6px 18px 
 .er-rij__beeld { position: relative; overflow: hidden; min-height: 400px; }
 .er-rij__beeld img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .6s ease; }
 .er-rij:hover .er-rij__beeld img { transform: scale(1.04); }
-.er-rij__tekst { position: relative; padding: 46px 52px; display: flex; flex-direction: column; justify-content: center; }
-.er-rij__tekst > * { position: relative; }
+.er-rij__tekst { display: flex; flex-direction: column; }
+.er-rij__top { position: relative; background: #1b1e23; flex: 1; display: flex; flex-direction: column; justify-content: center; padding: 46px 52px 44px; overflow: hidden; }
+.er-rij__top > * { position: relative; }
+.er-rij__onder { padding: 34px 52px 46px; background: var(--band); }
 .er-rij__nr { font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-weight: 800; font-size: 12.5px; letter-spacing: .14em; color: rgba(255, 255, 255, .88); margin-bottom: 12px; }
 .er-rij h3 { font-size: clamp(22px, 2.1vw, 28px); color: var(--wit); }
-.er-rij__tekst > p { margin-top: 12px; color: rgba(255, 255, 255, .9); max-width: 42ch; }
-.er-rij__link { margin-top: 28px; display: inline-flex; align-items: center; min-height: 44px; gap: 9px; align-self: flex-start; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-weight: 700; font-size: 15px; color: var(--wit); padding-bottom: 3px; border-bottom: 2px solid transparent; }
-.er-rij__link:hover { border-color: var(--wit); gap: 14px; }
+.er-rij__top > p { margin-top: 12px; color: rgba(255, 255, 255, .9); max-width: 42ch; }
+.er-rij__link { margin-top: 28px; display: inline-flex; align-items: center; min-height: 44px; gap: 9px; align-self: flex-start; font-family: "Plus Jakarta Sans", system-ui, sans-serif; font-weight: 700; font-size: 15px; color: var(--merk); padding-bottom: 3px; border-bottom: 2px solid transparent; }
+.er-rij__link:hover { border-color: var(--merk); gap: 14px; }
 
 /* ---------- werkwijze: bolletjes op een gebogen pad ---------- */
 .er-stappen { display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; padding-top: 6px; padding-bottom: 10px; }
@@ -320,7 +322,8 @@ a.er-score:hover span { color: var(--merk); }
 /* ================= tot 1200 ================= */
 @media (max-width: 1200px) {
   :root { --zij: 54px; --lucht: 72px; }
-  .er-rij__tekst { padding: 34px 32px; }
+  .er-rij__top { padding: 34px 32px 34px; }
+  .er-rij__onder { padding: 26px 32px 34px; }
   .er-waarom__in { grid-template-columns: 300px 240px 1fr; gap: 30px; }
   .er-reviews__in { grid-template-columns: 1fr 220px 1fr; gap: 34px; }
 }
@@ -371,7 +374,8 @@ a.er-score:hover span { color: var(--merk); }
   .er-rij { grid-template-columns: 1fr; }
   .er-rij--om { direction: ltr; }
   .er-rij__beeld { min-height: 0; aspect-ratio: 16 / 10; position: relative; }
-  .er-rij__tekst { padding: 28px 24px 32px; }
+  .er-rij__top { padding: 28px 24px 30px; }
+  .er-rij__onder { padding: 24px 24px 32px; }
   .er-stappen { grid-template-columns: repeat(2, 1fr); gap: 30px 16px; padding-bottom: 0; }
   .er-stap { margin-top: 0; }
   .er-boog { display: none; }
@@ -606,11 +610,11 @@ a.er-score:hover span { color: var(--merk); }
 .er-rij__vakfoto img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .er-rij__vakfoto::after {
   content: ""; position: absolute; inset: 0;
-  background: linear-gradient(180deg, rgba(18, 20, 24, .68) 0%, rgba(18, 20, 24, .78) 42%, rgba(18, 20, 24, .88) 100%);
+  background: linear-gradient(180deg, rgba(18, 20, 24, .6) 0%, rgba(18, 20, 24, .7) 48%, rgba(18, 20, 24, .8) 100%);
 }
-.er-rij__lijst { position: relative; margin-top: 24px; display: grid; grid-template-columns: 1fr 1fr; gap: 0 22px; }
-.er-rij__lijst li { padding: 10px 0 10px 20px; border-top: 1px solid rgba(255, 255, 255, .22); font-size: 15px; color: var(--wit); position: relative; }
-.er-rij__lijst li::before { content: ""; position: absolute; left: 1px; top: 50%; width: 6px; height: 6px; margin-top: -3px; border-radius: 999px; background: var(--wit); }
+.er-rij__lijst { display: grid; grid-template-columns: 1fr 1fr; gap: 0 22px; }
+.er-rij__lijst li { padding: 10px 0 10px 20px; border-top: 1px solid var(--lijn); font-size: 15px; color: var(--inkt); position: relative; }
+.er-rij__lijst li::before { content: ""; position: absolute; left: 1px; top: 50%; width: 6px; height: 6px; margin-top: -3px; border-radius: 999px; background: var(--merk); }
 @media (max-width: 700px) {
   .er-rij__lijst { grid-template-columns: 1fr; }
   .er-rij__lijst li { font-size: 14.5px; }

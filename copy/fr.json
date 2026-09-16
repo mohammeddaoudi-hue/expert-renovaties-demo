@@ -139,28 +139,14 @@
         "img": "ruwbouw-stelling",
         "alt": "Façade arrière en gros oeuvre avec un échafaudage pendant une rénovation complète",
         "onderdelen": [
-          {
-            "naam": "Démolition",
-            "img": "bad-ruw"
-          },
-          {
-            "naam": "Gros oeuvre",
-            "img": "ruwbouw-stelling"
-          },
-          {
-            "naam": "Plafonnage",
-            "img": "zolder-gang"
-          },
-          {
-            "naam": "Sols et carrelages",
-            "img": "zolder-overloop"
-          },
-          {
-            "naam": "Finitions",
-            "img": "zolder-kamer"
-          }
+          "Démolition",
+          "Gros oeuvre",
+          "Plafonnage",
+          "Sols et carrelages",
+          "Finitions"
         ],
-        "label": "Maison"
+        "label": "Maison",
+        "vakfoto": "achterbouw-terras"
       },
       {
         "id": "badkamers",
@@ -169,28 +155,14 @@
         "img": "douche-overzicht",
         "alt": "Salle de bains avec une douche à l'italienne derrière une paroi en verre et un meuble suspendu",
         "onderdelen": [
-          {
-            "naam": "Conduites",
-            "img": "bad-ruw"
-          },
-          {
-            "naam": "Carrelage",
-            "img": "douche-nissen"
-          },
-          {
-            "naam": "Douche ou baignoire",
-            "img": "bad-af"
-          },
-          {
-            "naam": "Meuble",
-            "img": "douche-overzicht"
-          },
-          {
-            "naam": "Placement de cuisine",
-            "img": "keuken-werkblad"
-          }
+          "Conduites",
+          "Carrelage",
+          "Douche ou baignoire",
+          "Meuble",
+          "Placement de cuisine"
         ],
-        "label": "Salle de bains"
+        "label": "Salle de bains",
+        "vakfoto": "keuken-overzicht"
       },
       {
         "id": "uitbouw",
@@ -199,28 +171,14 @@
         "img": "uitbouw-hoek",
         "alt": "Extension avec un bardage en bois vertical et des profilés de châssis noirs",
         "onderdelen": [
-          {
-            "naam": "Structure portante",
-            "img": "uitbouw-folie"
-          },
-          {
-            "naam": "Isolation",
-            "img": "uitbouw-stelling"
-          },
-          {
-            "naam": "Bardage",
-            "img": "uitbouw-zijkant"
-          },
-          {
-            "naam": "Chambres sous combles",
-            "img": "zolderkamer-vloer"
-          },
-          {
-            "naam": "Climatisation et chauffage",
-            "img": "zolderkamer-airco"
-          }
+          "Structure portante",
+          "Isolation",
+          "Bardage",
+          "Chambres sous combles",
+          "Climatisation et chauffage"
         ],
-        "label": "Agrandissement"
+        "label": "Agrandissement",
+        "vakfoto": "uitbouw-voorkant"
       }
     ]
   },
@@ -283,7 +241,7 @@
       {
         "nr": "01",
         "titel": "Conseil à domicile",
-        "tekst": "Vous nous dites ce que vous voulez, nous vous disons ce qui est techniquement possible et ce que cela coûte. La visite sur place et le prix ne vous coûtent rien."
+        "tekst": "Vous nous dites ce que vous souhaitez et nous regardons ensemble ce qui est possible et ce que cela coûte. La visite et le devis ne vous coûtent rien."
       },
       {
         "nr": "02",

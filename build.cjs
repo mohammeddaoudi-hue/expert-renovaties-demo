@@ -144,10 +144,11 @@ const diensten = `
       ${t.diensten.groepen.map((d, i) => `<article class="er-rij${i % 2 ? ' er-rij--om' : ''} er-op" id="d-${esc(d.id)}">
         <div class="er-rij__beeld">${pic(d.img, d.alt, '', '(max-width:900px) 92vw, 600px')}</div>
         <div class="er-rij__tekst">
+          <span class="er-rij__vakfoto" aria-hidden="true"><img src="${basis}img/${esc(d.vakfoto)}-900.jpg" alt="" aria-hidden="true" loading="lazy" decoding="async"></span>
           <span class="er-rij__nr">0${i + 1}</span>
           <h3>${esc(d.titel)}</h3>
           <p>${esc(d.tekst)}</p>
-          <ul class="er-rij__lijst">${d.onderdelen.map(o => `<li><span class="er-rij__mini"><img src="${basis}img/${esc(o.img)}-500.jpg" alt="" aria-hidden="true" width="40" height="40" loading="lazy" decoding="async"></span>${esc(o.naam)}</li>`).join('')}</ul>
+          <ul class="er-rij__lijst">${d.onderdelen.map(o => `<li>${esc(o)}</li>`).join('')}</ul>
           <a class="er-rij__link" href="#contact">${esc(t.diensten.knop)}<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h13M12 5l7 7-7 7"/></svg></a>
         </div>
       </article>`).join('')}

@@ -1,6 +1,7 @@
-// Gedragstest voor de voorbeeldsite van Rai Bouw. Server moet draaien op 8133.
+// Gedragstest voor de voorbeeldsite van Expert Renovaties. Server moet draaien op 8133.
 // node er-gedrag.mjs
 import puppeteer from 'file:///C:/Users/Mohammed/pixelperfect-photo-painter/node_modules/puppeteer-core/lib/puppeteer/puppeteer-core.js';
+import { createRequire } from 'node:module';
 
 const URL = 'http://localhost:8133/';
 let ok = 0; const fouten = [];
@@ -307,6 +308,51 @@ const browser = await puppeteer.launch({ executablePath: 'C:/Program Files/Googl
   }
   test('logo niet vervormd op elke breedte en taal', stuk.length === 0, stuk.join(', '));
   await pg.close();
+}
+
+/* ---- tekst op de dienstfoto blijft leesbaar ---- */
+{
+  const require_ = createRequire('file:///C:/Users/Mohammed/pixelperfect-photo-painter/package.json');
+  const sharp = require_('sharp');
+  const rel = (v) => { v /= 255; return v <= .03928 ? v / 12.92 : Math.pow((v + .055) / 1.055, 2.4); };
+  const LAT = 4.5;
+  let zwakste = { r: 99, waar: '' };
+  const pg = await browser.newPage();
+  for (const br of [390, 900, 1440]) {
+    await pg.setViewport({ width: br, height: 900, deviceScaleFactor: 1 });
+    await pg.goto(URL, { waitUntil: 'networkidle0' });
+    await pg.evaluate(() => document.querySelectorAll('.er-op').forEach(e => e.classList.add('is-zichtbaar')));
+    // de blokken schuiven bij het verschijnen omhoog; pas daarna liggen tekst en foto op hun plek
+    await new Promise(r => setTimeout(r, 800));
+    const stukken = await pg.evaluate(() => {
+      const uit = [];
+      document.querySelectorAll('.er-rij').forEach(rij => {
+        rij.querySelectorAll('.er-rij__nr, h3, .er-rij__tekst > p, .er-rij__lijst li, .er-rij__link').forEach(el => {
+          const r = el.getBoundingClientRect();
+          if (r.width < 4 || r.height < 4) return;
+          uit.push({ id: rij.id, x: r.left, y: r.top + window.scrollY, w: Math.round(r.width), h: Math.round(r.height), kleur: getComputedStyle(el).color });
+        });
+      });
+      return uit;
+    });
+    await pg.evaluate(() => document.querySelectorAll('.er-rij__tekst > *')
+      .forEach(e => { if (!e.classList.contains('er-rij__vakfoto')) e.style.visibility = 'hidden'; }));
+    for (const v of stukken) {
+      const buf = await pg.screenshot({ clip: { x: v.x, y: v.y, width: v.w, height: v.h } });
+      const rauw = Array.from(await sharp(buf).greyscale().raw().toBuffer()).sort((a, c) => c - a);
+      const licht = rauw[Math.floor(rauw.length * 0.02)];
+      const m = v.kleur.match(/[0-9.]+/g).map(Number);
+      const a = m[3] === undefined ? 1 : m[3];
+      const t = [0, 1, 2].map(i => a * m[i] + (1 - a) * licht);
+      const Lt = 0.2126 * rel(t[0]) + 0.7152 * rel(t[1]) + 0.0722 * rel(t[2]);
+      const Lb = 0.2126 * rel(licht) + 0.7152 * rel(licht) + 0.0722 * rel(licht);
+      const r = (Math.max(Lt, Lb) + .05) / (Math.min(Lt, Lb) + .05);
+      if (r < zwakste.r) zwakste = { r, waar: v.id + ' @' + br + 'px (achtergrond ' + licht + ')' };
+    }
+  }
+  await pg.close();
+  test('tekst op de dienstvakken leesbaar (>= ' + LAT + ':1)', zwakste.r >= LAT,
+    'zwakste ' + zwakste.r.toFixed(2) + ':1 bij ' + zwakste.waar);
 }
 
 await browser.close();

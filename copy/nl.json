@@ -139,28 +139,14 @@
         "img": "ruwbouw-stelling",
         "alt": "Achtergevel in ruwbouw met stelling tijdens een volledige renovatie",
         "onderdelen": [
-          {
-            "naam": "Uitbraak",
-            "img": "bad-ruw"
-          },
-          {
-            "naam": "Ruwbouw",
-            "img": "ruwbouw-stelling"
-          },
-          {
-            "naam": "Pleisterwerk",
-            "img": "zolder-gang"
-          },
-          {
-            "naam": "Vloeren en tegels",
-            "img": "zolder-overloop"
-          },
-          {
-            "naam": "Afwerking",
-            "img": "zolder-kamer"
-          }
+          "Uitbraak",
+          "Ruwbouw",
+          "Pleisterwerk",
+          "Vloeren en tegels",
+          "Afwerking"
         ],
-        "label": "Woning"
+        "label": "Woning",
+        "vakfoto": "achterbouw-terras"
       },
       {
         "id": "badkamers",
@@ -169,28 +155,14 @@
         "img": "douche-overzicht",
         "alt": "Badkamer met inloopdouche achter een glazen wand en een zwevend meubel",
         "onderdelen": [
-          {
-            "naam": "Leidingen",
-            "img": "bad-ruw"
-          },
-          {
-            "naam": "Tegelwerk",
-            "img": "douche-nissen"
-          },
-          {
-            "naam": "Douche of bad",
-            "img": "bad-af"
-          },
-          {
-            "naam": "Meubel",
-            "img": "douche-overzicht"
-          },
-          {
-            "naam": "Keuken plaatsen",
-            "img": "keuken-werkblad"
-          }
+          "Leidingen",
+          "Tegelwerk",
+          "Douche of bad",
+          "Meubel",
+          "Keuken plaatsen"
         ],
-        "label": "Badkamer"
+        "label": "Badkamer",
+        "vakfoto": "keuken-overzicht"
       },
       {
         "id": "uitbouw",
@@ -199,28 +171,14 @@
         "img": "uitbouw-hoek",
         "alt": "Uitbouw met verticale houten gevelbekleding en zwarte raamprofielen",
         "onderdelen": [
-          {
-            "naam": "Draagstructuur",
-            "img": "uitbouw-folie"
-          },
-          {
-            "naam": "Isolatie",
-            "img": "uitbouw-stelling"
-          },
-          {
-            "naam": "Gevelbekleding",
-            "img": "uitbouw-zijkant"
-          },
-          {
-            "naam": "Dakkamers",
-            "img": "zolderkamer-vloer"
-          },
-          {
-            "naam": "Airco en verwarming",
-            "img": "zolderkamer-airco"
-          }
+          "Draagstructuur",
+          "Isolatie",
+          "Gevelbekleding",
+          "Dakkamers",
+          "Airco en verwarming"
         ],
-        "label": "Uitbreiden"
+        "label": "Uitbreiden",
+        "vakfoto": "uitbouw-voorkant"
       }
     ]
   },
@@ -283,7 +241,7 @@
       {
         "nr": "01",
         "titel": "Advies aan huis",
-        "tekst": "U zegt wat u wil, wij zeggen wat er technisch kan en wat het kost. Het plaatsbezoek en de prijs kosten u niets."
+        "tekst": "U zegt wat u wil, en we kijken samen wat er mogelijk is en wat het kost. Het plaatsbezoek en de prijs kosten u niets."
       },
       {
         "nr": "02",

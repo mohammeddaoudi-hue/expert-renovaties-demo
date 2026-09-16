@@ -139,28 +139,14 @@
         "img": "ruwbouw-stelling",
         "alt": "Rear facade at structural stage with scaffolding up during a full renovation",
         "onderdelen": [
-          {
-            "naam": "Strip-out",
-            "img": "bad-ruw"
-          },
-          {
-            "naam": "Structural work",
-            "img": "ruwbouw-stelling"
-          },
-          {
-            "naam": "Plastering",
-            "img": "zolder-gang"
-          },
-          {
-            "naam": "Floors and tiling",
-            "img": "zolder-overloop"
-          },
-          {
-            "naam": "Finishing",
-            "img": "zolder-kamer"
-          }
+          "Strip-out",
+          "Structural work",
+          "Plastering",
+          "Floors and tiling",
+          "Finishing"
         ],
-        "label": "Home"
+        "label": "Home",
+        "vakfoto": "achterbouw-terras"
       },
       {
         "id": "badkamers",
@@ -169,28 +155,14 @@
         "img": "douche-overzicht",
         "alt": "Bathroom with a walk-in shower behind a glass screen and a wall-hung vanity unit",
         "onderdelen": [
-          {
-            "naam": "Pipework",
-            "img": "bad-ruw"
-          },
-          {
-            "naam": "Tiling",
-            "img": "douche-nissen"
-          },
-          {
-            "naam": "Shower or bath",
-            "img": "bad-af"
-          },
-          {
-            "naam": "Vanity unit",
-            "img": "douche-overzicht"
-          },
-          {
-            "naam": "Kitchen fitting",
-            "img": "keuken-werkblad"
-          }
+          "Pipework",
+          "Tiling",
+          "Shower or bath",
+          "Vanity unit",
+          "Kitchen fitting"
         ],
-        "label": "Bathroom"
+        "label": "Bathroom",
+        "vakfoto": "keuken-overzicht"
       },
       {
         "id": "uitbouw",
@@ -199,28 +171,14 @@
         "img": "uitbouw-hoek",
         "alt": "Extension with vertical timber cladding and black window frames",
         "onderdelen": [
-          {
-            "naam": "Load-bearing structure",
-            "img": "uitbouw-folie"
-          },
-          {
-            "naam": "Insulation",
-            "img": "uitbouw-stelling"
-          },
-          {
-            "naam": "Exterior cladding",
-            "img": "uitbouw-zijkant"
-          },
-          {
-            "naam": "Loft rooms",
-            "img": "zolderkamer-vloer"
-          },
-          {
-            "naam": "Air conditioning and heating",
-            "img": "zolderkamer-airco"
-          }
+          "Load-bearing structure",
+          "Insulation",
+          "Exterior cladding",
+          "Loft rooms",
+          "Air conditioning and heating"
         ],
-        "label": "Extending"
+        "label": "Extending",
+        "vakfoto": "uitbouw-voorkant"
       }
     ]
   },
@@ -283,7 +241,7 @@
       {
         "nr": "01",
         "titel": "Advice at your home",
-        "tekst": "You tell us what you want, we tell you what is technically possible and what it will cost. The site visit and the quote cost you nothing."
+        "tekst": "You tell us what you want and we look together at what is possible and what it costs. The visit and the quote cost you nothing."
       },
       {
         "nr": "02",
